@@ -381,7 +381,7 @@ innings:
               total: 0
         - 7.1:
             batsman: WU Tharanga
-            bowler: Mehedi Hasan Miraz
+            bowler: Mehidy Hasan Miraz
             non_striker: FDM Karunaratne
             runs:
               batsman: 0
@@ -389,7 +389,7 @@ innings:
               total: 0
         - 7.2:
             batsman: WU Tharanga
-            bowler: Mehedi Hasan Miraz
+            bowler: Mehidy Hasan Miraz
             non_striker: FDM Karunaratne
             runs:
               batsman: 0
@@ -397,7 +397,7 @@ innings:
               total: 0
         - 7.3:
             batsman: WU Tharanga
-            bowler: Mehedi Hasan Miraz
+            bowler: Mehidy Hasan Miraz
             non_striker: FDM Karunaratne
             runs:
               batsman: 0
@@ -405,7 +405,7 @@ innings:
               total: 0
         - 7.4:
             batsman: WU Tharanga
-            bowler: Mehedi Hasan Miraz
+            bowler: Mehidy Hasan Miraz
             non_striker: FDM Karunaratne
             runs:
               batsman: 0
@@ -413,7 +413,7 @@ innings:
               total: 0
         - 7.5:
             batsman: WU Tharanga
-            bowler: Mehedi Hasan Miraz
+            bowler: Mehidy Hasan Miraz
             non_striker: FDM Karunaratne
             runs:
               batsman: 0
@@ -421,7 +421,7 @@ innings:
               total: 0
         - 7.6:
             batsman: WU Tharanga
-            bowler: Mehedi Hasan Miraz
+            bowler: Mehidy Hasan Miraz
             non_striker: FDM Karunaratne
             runs:
               batsman: 0
@@ -461,7 +461,7 @@ innings:
               total: 0
             wicket:
               fielders:
-                - Mehedi Hasan Miraz
+                - Mehidy Hasan Miraz
               kind: caught
               player_out: FDM Karunaratne
         - 8.5:
@@ -482,7 +482,7 @@ innings:
               total: 0
         - 9.1:
             batsman: WU Tharanga
-            bowler: Mehedi Hasan Miraz
+            bowler: Mehidy Hasan Miraz
             non_striker: BKG Mendis
             runs:
               batsman: 0
@@ -490,7 +490,7 @@ innings:
               total: 0
         - 9.2:
             batsman: WU Tharanga
-            bowler: Mehedi Hasan Miraz
+            bowler: Mehidy Hasan Miraz
             non_striker: BKG Mendis
             runs:
               batsman: 0
@@ -498,7 +498,7 @@ innings:
               total: 0
         - 9.3:
             batsman: WU Tharanga
-            bowler: Mehedi Hasan Miraz
+            bowler: Mehidy Hasan Miraz
             non_striker: BKG Mendis
             runs:
               batsman: 0
@@ -506,7 +506,7 @@ innings:
               total: 0
         - 9.4:
             batsman: WU Tharanga
-            bowler: Mehedi Hasan Miraz
+            bowler: Mehidy Hasan Miraz
             non_striker: BKG Mendis
             runs:
               batsman: 0
@@ -514,7 +514,7 @@ innings:
               total: 0
         - 9.5:
             batsman: WU Tharanga
-            bowler: Mehedi Hasan Miraz
+            bowler: Mehidy Hasan Miraz
             non_striker: BKG Mendis
             runs:
               batsman: 1
@@ -522,7 +522,7 @@ innings:
               total: 1
         - 9.6:
             batsman: BKG Mendis
-            bowler: Mehedi Hasan Miraz
+            bowler: Mehidy Hasan Miraz
             non_striker: WU Tharanga
             runs:
               batsman: 4
@@ -578,7 +578,7 @@ innings:
               total: 0
         - 11.1:
             batsman: BKG Mendis
-            bowler: Mehedi Hasan Miraz
+            bowler: Mehidy Hasan Miraz
             non_striker: WU Tharanga
             runs:
               batsman: 0
@@ -586,7 +586,7 @@ innings:
               total: 0
         - 11.2:
             batsman: BKG Mendis
-            bowler: Mehedi Hasan Miraz
+            bowler: Mehidy Hasan Miraz
             non_striker: WU Tharanga
             runs:
               batsman: 1
@@ -594,7 +594,7 @@ innings:
               total: 1
         - 11.3:
             batsman: WU Tharanga
-            bowler: Mehedi Hasan Miraz
+            bowler: Mehidy Hasan Miraz
             non_striker: BKG Mendis
             runs:
               batsman: 0
@@ -602,7 +602,7 @@ innings:
               total: 0
         - 11.4:
             batsman: WU Tharanga
-            bowler: Mehedi Hasan Miraz
+            bowler: Mehidy Hasan Miraz
             non_striker: BKG Mendis
             runs:
               batsman: 1
@@ -610,7 +610,7 @@ innings:
               total: 1
         - 11.5:
             batsman: BKG Mendis
-            bowler: Mehedi Hasan Miraz
+            bowler: Mehidy Hasan Miraz
             non_striker: WU Tharanga
             runs:
               batsman: 0
@@ -623,7 +623,7 @@ innings:
               player_out: BKG Mendis
         - 11.6:
             batsman: LD Chandimal
-            bowler: Mehedi Hasan Miraz
+            bowler: Mehidy Hasan Miraz
             non_striker: WU Tharanga
             runs:
               batsman: 0
@@ -679,7 +679,7 @@ innings:
               total: 1
         - 13.1:
             batsman: LD Chandimal
-            bowler: Mehedi Hasan Miraz
+            bowler: Mehidy Hasan Miraz
             non_striker: WU Tharanga
             runs:
               batsman: 1
@@ -687,7 +687,7 @@ innings:
               total: 1
         - 13.2:
             batsman: WU Tharanga
-            bowler: Mehedi Hasan Miraz
+            bowler: Mehidy Hasan Miraz
             non_striker: LD Chandimal
             runs:
               batsman: 2
@@ -695,7 +695,7 @@ innings:
               total: 2
         - 13.3:
             batsman: WU Tharanga
-            bowler: Mehedi Hasan Miraz
+            bowler: Mehidy Hasan Miraz
             non_striker: LD Chandimal
             runs:
               batsman: 0
@@ -703,7 +703,7 @@ innings:
               total: 0
         - 13.4:
             batsman: WU Tharanga
-            bowler: Mehedi Hasan Miraz
+            bowler: Mehidy Hasan Miraz
             non_striker: LD Chandimal
             runs:
               batsman: 1
@@ -711,7 +711,7 @@ innings:
               total: 1
         - 13.5:
             batsman: LD Chandimal
-            bowler: Mehedi Hasan Miraz
+            bowler: Mehidy Hasan Miraz
             non_striker: WU Tharanga
             runs:
               batsman: 0
@@ -719,7 +719,7 @@ innings:
               total: 0
         - 13.6:
             batsman: LD Chandimal
-            bowler: Mehedi Hasan Miraz
+            bowler: Mehidy Hasan Miraz
             non_striker: WU Tharanga
             runs:
               batsman: 1
@@ -775,7 +775,7 @@ innings:
               total: 0
         - 15.1:
             batsman: WU Tharanga
-            bowler: Mehedi Hasan Miraz
+            bowler: Mehidy Hasan Miraz
             non_striker: LD Chandimal
             runs:
               batsman: 0
@@ -783,7 +783,7 @@ innings:
               total: 0
         - 15.2:
             batsman: WU Tharanga
-            bowler: Mehedi Hasan Miraz
+            bowler: Mehidy Hasan Miraz
             non_striker: LD Chandimal
             runs:
               batsman: 0
@@ -796,7 +796,7 @@ innings:
               player_out: WU Tharanga
         - 15.3:
             batsman: DAS Gunaratne
-            bowler: Mehedi Hasan Miraz
+            bowler: Mehidy Hasan Miraz
             non_striker: LD Chandimal
             runs:
               batsman: 0
@@ -804,7 +804,7 @@ innings:
               total: 0
         - 15.4:
             batsman: DAS Gunaratne
-            bowler: Mehedi Hasan Miraz
+            bowler: Mehidy Hasan Miraz
             non_striker: LD Chandimal
             runs:
               batsman: 0
@@ -812,7 +812,7 @@ innings:
               total: 0
         - 15.5:
             batsman: DAS Gunaratne
-            bowler: Mehedi Hasan Miraz
+            bowler: Mehidy Hasan Miraz
             non_striker: LD Chandimal
             runs:
               batsman: 0
@@ -820,7 +820,7 @@ innings:
               total: 0
         - 15.6:
             batsman: DAS Gunaratne
-            bowler: Mehedi Hasan Miraz
+            bowler: Mehidy Hasan Miraz
             non_striker: LD Chandimal
             runs:
               batsman: 0
@@ -876,7 +876,7 @@ innings:
               total: 1
         - 17.1:
             batsman: LD Chandimal
-            bowler: Mehedi Hasan Miraz
+            bowler: Mehidy Hasan Miraz
             non_striker: DAS Gunaratne
             runs:
               batsman: 0
@@ -884,7 +884,7 @@ innings:
               total: 0
         - 17.2:
             batsman: LD Chandimal
-            bowler: Mehedi Hasan Miraz
+            bowler: Mehidy Hasan Miraz
             non_striker: DAS Gunaratne
             runs:
               batsman: 0
@@ -892,7 +892,7 @@ innings:
               total: 0
         - 17.3:
             batsman: LD Chandimal
-            bowler: Mehedi Hasan Miraz
+            bowler: Mehidy Hasan Miraz
             non_striker: DAS Gunaratne
             runs:
               batsman: 0
@@ -900,7 +900,7 @@ innings:
               total: 0
         - 17.4:
             batsman: LD Chandimal
-            bowler: Mehedi Hasan Miraz
+            bowler: Mehidy Hasan Miraz
             non_striker: DAS Gunaratne
             runs:
               batsman: 0
@@ -908,7 +908,7 @@ innings:
               total: 0
         - 17.5:
             batsman: LD Chandimal
-            bowler: Mehedi Hasan Miraz
+            bowler: Mehidy Hasan Miraz
             non_striker: DAS Gunaratne
             runs:
               batsman: 0
@@ -916,7 +916,7 @@ innings:
               total: 0
         - 17.6:
             batsman: LD Chandimal
-            bowler: Mehedi Hasan Miraz
+            bowler: Mehidy Hasan Miraz
             non_striker: DAS Gunaratne
             runs:
               batsman: 2
@@ -972,7 +972,7 @@ innings:
               total: 0
         - 19.1:
             batsman: DAS Gunaratne
-            bowler: Mehedi Hasan Miraz
+            bowler: Mehidy Hasan Miraz
             non_striker: LD Chandimal
             runs:
               batsman: 0
@@ -980,7 +980,7 @@ innings:
               total: 0
         - 19.2:
             batsman: DAS Gunaratne
-            bowler: Mehedi Hasan Miraz
+            bowler: Mehidy Hasan Miraz
             non_striker: LD Chandimal
             runs:
               batsman: 0
@@ -988,7 +988,7 @@ innings:
               total: 0
         - 19.3:
             batsman: DAS Gunaratne
-            bowler: Mehedi Hasan Miraz
+            bowler: Mehidy Hasan Miraz
             non_striker: LD Chandimal
             runs:
               batsman: 0
@@ -996,7 +996,7 @@ innings:
               total: 0
         - 19.4:
             batsman: DAS Gunaratne
-            bowler: Mehedi Hasan Miraz
+            bowler: Mehidy Hasan Miraz
             non_striker: LD Chandimal
             runs:
               batsman: 1
@@ -1004,7 +1004,7 @@ innings:
               total: 1
         - 19.5:
             batsman: LD Chandimal
-            bowler: Mehedi Hasan Miraz
+            bowler: Mehidy Hasan Miraz
             non_striker: DAS Gunaratne
             runs:
               batsman: 0
@@ -1012,7 +1012,7 @@ innings:
               total: 0
         - 19.6:
             batsman: LD Chandimal
-            bowler: Mehedi Hasan Miraz
+            bowler: Mehidy Hasan Miraz
             non_striker: DAS Gunaratne
             runs:
               batsman: 1
@@ -1068,7 +1068,7 @@ innings:
               total: 2
         - 21.1:
             batsman: DAS Gunaratne
-            bowler: Mehedi Hasan Miraz
+            bowler: Mehidy Hasan Miraz
             non_striker: LD Chandimal
             runs:
               batsman: 1
@@ -1076,7 +1076,7 @@ innings:
               total: 1
         - 21.2:
             batsman: LD Chandimal
-            bowler: Mehedi Hasan Miraz
+            bowler: Mehidy Hasan Miraz
             non_striker: DAS Gunaratne
             runs:
               batsman: 0
@@ -1084,7 +1084,7 @@ innings:
               total: 0
         - 21.3:
             batsman: LD Chandimal
-            bowler: Mehedi Hasan Miraz
+            bowler: Mehidy Hasan Miraz
             non_striker: DAS Gunaratne
             runs:
               batsman: 1
@@ -1092,7 +1092,7 @@ innings:
               total: 1
         - 21.4:
             batsman: DAS Gunaratne
-            bowler: Mehedi Hasan Miraz
+            bowler: Mehidy Hasan Miraz
             non_striker: LD Chandimal
             runs:
               batsman: 0
@@ -1100,7 +1100,7 @@ innings:
               total: 0
         - 21.5:
             batsman: DAS Gunaratne
-            bowler: Mehedi Hasan Miraz
+            bowler: Mehidy Hasan Miraz
             non_striker: LD Chandimal
             runs:
               batsman: 0
@@ -1108,7 +1108,7 @@ innings:
               total: 0
         - 21.6:
             batsman: DAS Gunaratne
-            bowler: Mehedi Hasan Miraz
+            bowler: Mehidy Hasan Miraz
             non_striker: LD Chandimal
             runs:
               batsman: 0
@@ -1164,7 +1164,7 @@ innings:
               total: 0
         - 23.1:
             batsman: LD Chandimal
-            bowler: Mehedi Hasan Miraz
+            bowler: Mehidy Hasan Miraz
             non_striker: DAS Gunaratne
             runs:
               batsman: 4
@@ -1172,7 +1172,7 @@ innings:
               total: 4
         - 23.2:
             batsman: LD Chandimal
-            bowler: Mehedi Hasan Miraz
+            bowler: Mehidy Hasan Miraz
             non_striker: DAS Gunaratne
             runs:
               batsman: 1
@@ -1180,7 +1180,7 @@ innings:
               total: 1
         - 23.3:
             batsman: DAS Gunaratne
-            bowler: Mehedi Hasan Miraz
+            bowler: Mehidy Hasan Miraz
             non_striker: LD Chandimal
             runs:
               batsman: 0
@@ -1188,7 +1188,7 @@ innings:
               total: 0
         - 23.4:
             batsman: DAS Gunaratne
-            bowler: Mehedi Hasan Miraz
+            bowler: Mehidy Hasan Miraz
             non_striker: LD Chandimal
             runs:
               batsman: 0
@@ -1196,7 +1196,7 @@ innings:
               total: 0
         - 23.5:
             batsman: DAS Gunaratne
-            bowler: Mehedi Hasan Miraz
+            bowler: Mehidy Hasan Miraz
             non_striker: LD Chandimal
             runs:
               batsman: 0
@@ -1204,7 +1204,7 @@ innings:
               total: 0
         - 23.6:
             batsman: DAS Gunaratne
-            bowler: Mehedi Hasan Miraz
+            bowler: Mehidy Hasan Miraz
             non_striker: LD Chandimal
             runs:
               batsman: 0
@@ -1262,7 +1262,7 @@ innings:
               total: 0
         - 25.1:
             batsman: DAS Gunaratne
-            bowler: Mehedi Hasan Miraz
+            bowler: Mehidy Hasan Miraz
             non_striker: LD Chandimal
             runs:
               batsman: 3
@@ -1270,7 +1270,7 @@ innings:
               total: 3
         - 25.2:
             batsman: LD Chandimal
-            bowler: Mehedi Hasan Miraz
+            bowler: Mehidy Hasan Miraz
             non_striker: DAS Gunaratne
             runs:
               batsman: 1
@@ -1278,7 +1278,7 @@ innings:
               total: 1
         - 25.3:
             batsman: DAS Gunaratne
-            bowler: Mehedi Hasan Miraz
+            bowler: Mehidy Hasan Miraz
             non_striker: LD Chandimal
             runs:
               batsman: 4
@@ -1286,7 +1286,7 @@ innings:
               total: 4
         - 25.4:
             batsman: DAS Gunaratne
-            bowler: Mehedi Hasan Miraz
+            bowler: Mehidy Hasan Miraz
             non_striker: LD Chandimal
             runs:
               batsman: 0
@@ -1294,7 +1294,7 @@ innings:
               total: 0
         - 25.5:
             batsman: DAS Gunaratne
-            bowler: Mehedi Hasan Miraz
+            bowler: Mehidy Hasan Miraz
             non_striker: LD Chandimal
             runs:
               batsman: 0
@@ -1302,7 +1302,7 @@ innings:
               total: 0
         - 25.6:
             batsman: DAS Gunaratne
-            bowler: Mehedi Hasan Miraz
+            bowler: Mehidy Hasan Miraz
             non_striker: LD Chandimal
             runs:
               batsman: 1
@@ -2047,7 +2047,7 @@ innings:
               total: 0
         - 41.1:
             batsman: LD Chandimal
-            bowler: Mehedi Hasan Miraz
+            bowler: Mehidy Hasan Miraz
             non_striker: DM de Silva
             runs:
               batsman: 1
@@ -2055,7 +2055,7 @@ innings:
               total: 1
         - 41.2:
             batsman: DM de Silva
-            bowler: Mehedi Hasan Miraz
+            bowler: Mehidy Hasan Miraz
             non_striker: LD Chandimal
             runs:
               batsman: 0
@@ -2063,7 +2063,7 @@ innings:
               total: 0
         - 41.3:
             batsman: DM de Silva
-            bowler: Mehedi Hasan Miraz
+            bowler: Mehidy Hasan Miraz
             non_striker: LD Chandimal
             runs:
               batsman: 4
@@ -2071,7 +2071,7 @@ innings:
               total: 4
         - 41.4:
             batsman: DM de Silva
-            bowler: Mehedi Hasan Miraz
+            bowler: Mehidy Hasan Miraz
             non_striker: LD Chandimal
             runs:
               batsman: 2
@@ -2079,7 +2079,7 @@ innings:
               total: 2
         - 41.5:
             batsman: DM de Silva
-            bowler: Mehedi Hasan Miraz
+            bowler: Mehidy Hasan Miraz
             non_striker: LD Chandimal
             runs:
               batsman: 1
@@ -2087,7 +2087,7 @@ innings:
               total: 1
         - 41.6:
             batsman: LD Chandimal
-            bowler: Mehedi Hasan Miraz
+            bowler: Mehidy Hasan Miraz
             non_striker: DM de Silva
             runs:
               batsman: 1
@@ -2580,7 +2580,7 @@ innings:
               total: 0
         - 52.1:
             batsman: N Dickwella
-            bowler: Mehedi Hasan Miraz
+            bowler: Mehidy Hasan Miraz
             non_striker: LD Chandimal
             runs:
               batsman: 4
@@ -2588,7 +2588,7 @@ innings:
               total: 4
         - 52.2:
             batsman: N Dickwella
-            bowler: Mehedi Hasan Miraz
+            bowler: Mehidy Hasan Miraz
             non_striker: LD Chandimal
             runs:
               batsman: 0
@@ -2596,7 +2596,7 @@ innings:
               total: 0
         - 52.3:
             batsman: N Dickwella
-            bowler: Mehedi Hasan Miraz
+            bowler: Mehidy Hasan Miraz
             non_striker: LD Chandimal
             runs:
               batsman: 0
@@ -2604,7 +2604,7 @@ innings:
               total: 0
         - 52.4:
             batsman: N Dickwella
-            bowler: Mehedi Hasan Miraz
+            bowler: Mehidy Hasan Miraz
             non_striker: LD Chandimal
             runs:
               batsman: 0
@@ -2612,7 +2612,7 @@ innings:
               total: 0
         - 52.5:
             batsman: N Dickwella
-            bowler: Mehedi Hasan Miraz
+            bowler: Mehidy Hasan Miraz
             non_striker: LD Chandimal
             runs:
               batsman: 0
@@ -2620,7 +2620,7 @@ innings:
               total: 0
         - 52.6:
             batsman: N Dickwella
-            bowler: Mehedi Hasan Miraz
+            bowler: Mehidy Hasan Miraz
             non_striker: LD Chandimal
             runs:
               batsman: 2
@@ -2888,7 +2888,7 @@ innings:
               total: 0
         - 58.1:
             batsman: N Dickwella
-            bowler: Mehedi Hasan Miraz
+            bowler: Mehidy Hasan Miraz
             non_striker: LD Chandimal
             runs:
               batsman: 0
@@ -2896,7 +2896,7 @@ innings:
               total: 0
         - 58.2:
             batsman: N Dickwella
-            bowler: Mehedi Hasan Miraz
+            bowler: Mehidy Hasan Miraz
             non_striker: LD Chandimal
             runs:
               batsman: 2
@@ -2904,7 +2904,7 @@ innings:
               total: 2
         - 58.3:
             batsman: N Dickwella
-            bowler: Mehedi Hasan Miraz
+            bowler: Mehidy Hasan Miraz
             non_striker: LD Chandimal
             runs:
               batsman: 3
@@ -2912,7 +2912,7 @@ innings:
               total: 3
         - 58.4:
             batsman: LD Chandimal
-            bowler: Mehedi Hasan Miraz
+            bowler: Mehidy Hasan Miraz
             non_striker: N Dickwella
             runs:
               batsman: 1
@@ -2920,7 +2920,7 @@ innings:
               total: 1
         - 58.5:
             batsman: N Dickwella
-            bowler: Mehedi Hasan Miraz
+            bowler: Mehidy Hasan Miraz
             non_striker: LD Chandimal
             runs:
               batsman: 0
@@ -2928,7 +2928,7 @@ innings:
               total: 0
         - 58.6:
             batsman: N Dickwella
-            bowler: Mehedi Hasan Miraz
+            bowler: Mehidy Hasan Miraz
             non_striker: LD Chandimal
             runs:
               batsman: 1
@@ -3956,7 +3956,7 @@ innings:
               total: 0
         - 80.1:
             batsman: HMRKB Herath
-            bowler: Mehedi Hasan Miraz
+            bowler: Mehidy Hasan Miraz
             non_striker: LD Chandimal
             runs:
               batsman: 0
@@ -3964,7 +3964,7 @@ innings:
               total: 0
         - 80.2:
             batsman: HMRKB Herath
-            bowler: Mehedi Hasan Miraz
+            bowler: Mehidy Hasan Miraz
             non_striker: LD Chandimal
             runs:
               batsman: 0
@@ -3972,7 +3972,7 @@ innings:
               total: 0
         - 80.3:
             batsman: HMRKB Herath
-            bowler: Mehedi Hasan Miraz
+            bowler: Mehidy Hasan Miraz
             non_striker: LD Chandimal
             runs:
               batsman: 1
@@ -3980,7 +3980,7 @@ innings:
               total: 1
         - 80.4:
             batsman: LD Chandimal
-            bowler: Mehedi Hasan Miraz
+            bowler: Mehidy Hasan Miraz
             non_striker: HMRKB Herath
             runs:
               batsman: 1
@@ -3988,7 +3988,7 @@ innings:
               total: 1
         - 80.5:
             batsman: HMRKB Herath
-            bowler: Mehedi Hasan Miraz
+            bowler: Mehidy Hasan Miraz
             non_striker: LD Chandimal
             runs:
               batsman: 0
@@ -3996,7 +3996,7 @@ innings:
               total: 0
         - 80.6:
             batsman: HMRKB Herath
-            bowler: Mehedi Hasan Miraz
+            bowler: Mehidy Hasan Miraz
             non_striker: LD Chandimal
             runs:
               batsman: 0
@@ -4054,7 +4054,7 @@ innings:
               total: 0
         - 82.1:
             batsman: LD Chandimal
-            bowler: Mehedi Hasan Miraz
+            bowler: Mehidy Hasan Miraz
             non_striker: HMRKB Herath
             runs:
               batsman: 1
@@ -4062,7 +4062,7 @@ innings:
               total: 1
         - 82.2:
             batsman: HMRKB Herath
-            bowler: Mehedi Hasan Miraz
+            bowler: Mehidy Hasan Miraz
             non_striker: LD Chandimal
             runs:
               batsman: 0
@@ -4070,7 +4070,7 @@ innings:
               total: 0
         - 82.3:
             batsman: HMRKB Herath
-            bowler: Mehedi Hasan Miraz
+            bowler: Mehidy Hasan Miraz
             non_striker: LD Chandimal
             runs:
               batsman: 0
@@ -4078,7 +4078,7 @@ innings:
               total: 0
         - 82.4:
             batsman: HMRKB Herath
-            bowler: Mehedi Hasan Miraz
+            bowler: Mehidy Hasan Miraz
             non_striker: LD Chandimal
             runs:
               batsman: 0
@@ -4086,7 +4086,7 @@ innings:
               total: 0
         - 82.5:
             batsman: HMRKB Herath
-            bowler: Mehedi Hasan Miraz
+            bowler: Mehidy Hasan Miraz
             non_striker: LD Chandimal
             runs:
               batsman: 1
@@ -4094,7 +4094,7 @@ innings:
               total: 1
         - 82.6:
             batsman: LD Chandimal
-            bowler: Mehedi Hasan Miraz
+            bowler: Mehidy Hasan Miraz
             non_striker: HMRKB Herath
             runs:
               batsman: 0
@@ -4973,7 +4973,7 @@ innings:
               total: 2
         - 101.1:
             batsman: LD Chandimal
-            bowler: Mehedi Hasan Miraz
+            bowler: Mehidy Hasan Miraz
             non_striker: RAS Lakmal
             runs:
               batsman: 2
@@ -4981,7 +4981,7 @@ innings:
               total: 2
         - 101.2:
             batsman: LD Chandimal
-            bowler: Mehedi Hasan Miraz
+            bowler: Mehidy Hasan Miraz
             non_striker: RAS Lakmal
             runs:
               batsman: 0
@@ -4989,7 +4989,7 @@ innings:
               total: 0
         - 101.3:
             batsman: LD Chandimal
-            bowler: Mehedi Hasan Miraz
+            bowler: Mehidy Hasan Miraz
             non_striker: RAS Lakmal
             runs:
               batsman: 0
@@ -4997,7 +4997,7 @@ innings:
               total: 0
         - 101.4:
             batsman: LD Chandimal
-            bowler: Mehedi Hasan Miraz
+            bowler: Mehidy Hasan Miraz
             non_striker: RAS Lakmal
             runs:
               batsman: 0
@@ -5005,7 +5005,7 @@ innings:
               total: 0
         - 101.5:
             batsman: LD Chandimal
-            bowler: Mehedi Hasan Miraz
+            bowler: Mehidy Hasan Miraz
             non_striker: RAS Lakmal
             runs:
               batsman: 1
@@ -5013,7 +5013,7 @@ innings:
               total: 1
         - 101.6:
             batsman: RAS Lakmal
-            bowler: Mehedi Hasan Miraz
+            bowler: Mehidy Hasan Miraz
             non_striker: LD Chandimal
             runs:
               batsman: 0
@@ -5069,7 +5069,7 @@ innings:
               total: 1
         - 103.1:
             batsman: LD Chandimal
-            bowler: Mehedi Hasan Miraz
+            bowler: Mehidy Hasan Miraz
             non_striker: RAS Lakmal
             runs:
               batsman: 0
@@ -5077,7 +5077,7 @@ innings:
               total: 0
         - 103.2:
             batsman: LD Chandimal
-            bowler: Mehedi Hasan Miraz
+            bowler: Mehidy Hasan Miraz
             non_striker: RAS Lakmal
             runs:
               batsman: 2
@@ -5085,7 +5085,7 @@ innings:
               total: 2
         - 103.3:
             batsman: LD Chandimal
-            bowler: Mehedi Hasan Miraz
+            bowler: Mehidy Hasan Miraz
             non_striker: RAS Lakmal
             runs:
               batsman: 0
@@ -5093,7 +5093,7 @@ innings:
               total: 0
         - 103.4:
             batsman: LD Chandimal
-            bowler: Mehedi Hasan Miraz
+            bowler: Mehidy Hasan Miraz
             non_striker: RAS Lakmal
             runs:
               batsman: 0
@@ -5101,7 +5101,7 @@ innings:
               total: 0
         - 103.5:
             batsman: LD Chandimal
-            bowler: Mehedi Hasan Miraz
+            bowler: Mehidy Hasan Miraz
             non_striker: RAS Lakmal
             runs:
               batsman: 0
@@ -5109,7 +5109,7 @@ innings:
               total: 0
         - 103.6:
             batsman: LD Chandimal
-            bowler: Mehedi Hasan Miraz
+            bowler: Mehidy Hasan Miraz
             non_striker: RAS Lakmal
             runs:
               batsman: 4
@@ -5165,7 +5165,7 @@ innings:
               total: 0
         - 105.1:
             batsman: RAS Lakmal
-            bowler: Mehedi Hasan Miraz
+            bowler: Mehidy Hasan Miraz
             non_striker: LD Chandimal
             runs:
               batsman: 0
@@ -5173,7 +5173,7 @@ innings:
               total: 0
         - 105.2:
             batsman: RAS Lakmal
-            bowler: Mehedi Hasan Miraz
+            bowler: Mehidy Hasan Miraz
             non_striker: LD Chandimal
             runs:
               batsman: 1
@@ -5181,7 +5181,7 @@ innings:
               total: 1
         - 105.3:
             batsman: LD Chandimal
-            bowler: Mehedi Hasan Miraz
+            bowler: Mehidy Hasan Miraz
             non_striker: RAS Lakmal
             runs:
               batsman: 0
@@ -5189,7 +5189,7 @@ innings:
               total: 0
         - 105.4:
             batsman: LD Chandimal
-            bowler: Mehedi Hasan Miraz
+            bowler: Mehidy Hasan Miraz
             non_striker: RAS Lakmal
             runs:
               batsman: 4
@@ -5197,7 +5197,7 @@ innings:
               total: 4
         - 105.5:
             batsman: LD Chandimal
-            bowler: Mehedi Hasan Miraz
+            bowler: Mehidy Hasan Miraz
             non_striker: RAS Lakmal
             runs:
               batsman: 0
@@ -5205,7 +5205,7 @@ innings:
               total: 0
         - 105.6:
             batsman: LD Chandimal
-            bowler: Mehedi Hasan Miraz
+            bowler: Mehidy Hasan Miraz
             non_striker: RAS Lakmal
             runs:
               batsman: 0
@@ -5266,7 +5266,7 @@ innings:
               total: 1
         - 107.1:
             batsman: RAS Lakmal
-            bowler: Mehedi Hasan Miraz
+            bowler: Mehidy Hasan Miraz
             non_striker: PADLR Sandakan
             runs:
               batsman: 0
@@ -5274,7 +5274,7 @@ innings:
               total: 0
         - 107.2:
             batsman: RAS Lakmal
-            bowler: Mehedi Hasan Miraz
+            bowler: Mehidy Hasan Miraz
             non_striker: PADLR Sandakan
             runs:
               batsman: 0
@@ -5282,7 +5282,7 @@ innings:
               total: 0
         - 107.3:
             batsman: RAS Lakmal
-            bowler: Mehedi Hasan Miraz
+            bowler: Mehidy Hasan Miraz
             non_striker: PADLR Sandakan
             runs:
               batsman: 1
@@ -5290,7 +5290,7 @@ innings:
               total: 1
         - 107.4:
             batsman: PADLR Sandakan
-            bowler: Mehedi Hasan Miraz
+            bowler: Mehidy Hasan Miraz
             non_striker: RAS Lakmal
             runs:
               batsman: 0
@@ -5298,7 +5298,7 @@ innings:
               total: 0
         - 107.5:
             batsman: PADLR Sandakan
-            bowler: Mehedi Hasan Miraz
+            bowler: Mehidy Hasan Miraz
             non_striker: RAS Lakmal
             runs:
               batsman: 0
@@ -5306,7 +5306,7 @@ innings:
               total: 0
         - 107.6:
             batsman: PADLR Sandakan
-            bowler: Mehedi Hasan Miraz
+            bowler: Mehidy Hasan Miraz
             non_striker: RAS Lakmal
             runs:
               batsman: 1
@@ -5362,7 +5362,7 @@ innings:
               total: 1
         - 109.1:
             batsman: RAS Lakmal
-            bowler: Mehedi Hasan Miraz
+            bowler: Mehidy Hasan Miraz
             non_striker: PADLR Sandakan
             runs:
               batsman: 1
@@ -5370,7 +5370,7 @@ innings:
               total: 1
         - 109.2:
             batsman: PADLR Sandakan
-            bowler: Mehedi Hasan Miraz
+            bowler: Mehidy Hasan Miraz
             non_striker: RAS Lakmal
             runs:
               batsman: 0
@@ -5378,7 +5378,7 @@ innings:
               total: 0
         - 109.3:
             batsman: PADLR Sandakan
-            bowler: Mehedi Hasan Miraz
+            bowler: Mehidy Hasan Miraz
             non_striker: RAS Lakmal
             runs:
               batsman: 0
@@ -5386,7 +5386,7 @@ innings:
               total: 0
         - 109.4:
             batsman: PADLR Sandakan
-            bowler: Mehedi Hasan Miraz
+            bowler: Mehidy Hasan Miraz
             non_striker: RAS Lakmal
             runs:
               batsman: 0
@@ -5394,7 +5394,7 @@ innings:
               total: 0
         - 109.5:
             batsman: PADLR Sandakan
-            bowler: Mehedi Hasan Miraz
+            bowler: Mehidy Hasan Miraz
             non_striker: RAS Lakmal
             runs:
               batsman: 0
@@ -5402,7 +5402,7 @@ innings:
               total: 0
         - 109.6:
             batsman: PADLR Sandakan
-            bowler: Mehedi Hasan Miraz
+            bowler: Mehidy Hasan Miraz
             non_striker: RAS Lakmal
             runs:
               batsman: 0
@@ -5458,7 +5458,7 @@ innings:
               total: 0
         - 111.1:
             batsman: RAS Lakmal
-            bowler: Mehedi Hasan Miraz
+            bowler: Mehidy Hasan Miraz
             non_striker: PADLR Sandakan
             runs:
               batsman: 4
@@ -5466,7 +5466,7 @@ innings:
               total: 4
         - 111.2:
             batsman: RAS Lakmal
-            bowler: Mehedi Hasan Miraz
+            bowler: Mehidy Hasan Miraz
             non_striker: PADLR Sandakan
             runs:
               batsman: 0
@@ -5474,7 +5474,7 @@ innings:
               total: 0
         - 111.3:
             batsman: RAS Lakmal
-            bowler: Mehedi Hasan Miraz
+            bowler: Mehidy Hasan Miraz
             non_striker: PADLR Sandakan
             runs:
               batsman: 6
@@ -5482,7 +5482,7 @@ innings:
               total: 6
         - 111.4:
             batsman: RAS Lakmal
-            bowler: Mehedi Hasan Miraz
+            bowler: Mehidy Hasan Miraz
             non_striker: PADLR Sandakan
             runs:
               batsman: 0
@@ -5490,7 +5490,7 @@ innings:
               total: 0
         - 111.5:
             batsman: RAS Lakmal
-            bowler: Mehedi Hasan Miraz
+            bowler: Mehidy Hasan Miraz
             non_striker: PADLR Sandakan
             runs:
               batsman: 4
@@ -5498,7 +5498,7 @@ innings:
               total: 4
         - 111.6:
             batsman: RAS Lakmal
-            bowler: Mehedi Hasan Miraz
+            bowler: Mehidy Hasan Miraz
             non_striker: PADLR Sandakan
             runs:
               batsman: 1
@@ -11082,7 +11082,7 @@ innings:
               kind: caught
               player_out: Shakib Al Hasan
         - 113.3:
-            batsman: Mehedi Hasan Miraz
+            batsman: Mehidy Hasan Miraz
             bowler: PADLR Sandakan
             non_striker: Mosaddek Hossain
             runs:
@@ -11090,7 +11090,7 @@ innings:
               extras: 0
               total: 0
         - 113.4:
-            batsman: Mehedi Hasan Miraz
+            batsman: Mehidy Hasan Miraz
             bowler: PADLR Sandakan
             non_striker: Mosaddek Hossain
             runs:
@@ -11098,7 +11098,7 @@ innings:
               extras: 0
               total: 0
         - 113.5:
-            batsman: Mehedi Hasan Miraz
+            batsman: Mehidy Hasan Miraz
             bowler: PADLR Sandakan
             non_striker: Mosaddek Hossain
             runs:
@@ -11106,7 +11106,7 @@ innings:
               extras: 0
               total: 0
         - 113.6:
-            batsman: Mehedi Hasan Miraz
+            batsman: Mehidy Hasan Miraz
             bowler: PADLR Sandakan
             non_striker: Mosaddek Hossain
             runs:
@@ -11116,7 +11116,7 @@ innings:
         - 114.1:
             batsman: Mosaddek Hossain
             bowler: HMRKB Herath
-            non_striker: Mehedi Hasan Miraz
+            non_striker: Mehidy Hasan Miraz
             runs:
               batsman: 0
               extras: 0
@@ -11124,7 +11124,7 @@ innings:
         - 114.2:
             batsman: Mosaddek Hossain
             bowler: HMRKB Herath
-            non_striker: Mehedi Hasan Miraz
+            non_striker: Mehidy Hasan Miraz
             runs:
               batsman: 0
               extras: 0
@@ -11132,7 +11132,7 @@ innings:
         - 114.3:
             batsman: Mosaddek Hossain
             bowler: HMRKB Herath
-            non_striker: Mehedi Hasan Miraz
+            non_striker: Mehidy Hasan Miraz
             runs:
               batsman: 0
               extras: 0
@@ -11140,7 +11140,7 @@ innings:
         - 114.4:
             batsman: Mosaddek Hossain
             bowler: HMRKB Herath
-            non_striker: Mehedi Hasan Miraz
+            non_striker: Mehidy Hasan Miraz
             runs:
               batsman: 0
               extras: 0
@@ -11148,13 +11148,13 @@ innings:
         - 114.5:
             batsman: Mosaddek Hossain
             bowler: HMRKB Herath
-            non_striker: Mehedi Hasan Miraz
+            non_striker: Mehidy Hasan Miraz
             runs:
               batsman: 1
               extras: 0
               total: 1
         - 114.6:
-            batsman: Mehedi Hasan Miraz
+            batsman: Mehidy Hasan Miraz
             bowler: HMRKB Herath
             non_striker: Mosaddek Hossain
             runs:
@@ -11164,7 +11164,7 @@ innings:
         - 115.1:
             batsman: Mosaddek Hossain
             bowler: PADLR Sandakan
-            non_striker: Mehedi Hasan Miraz
+            non_striker: Mehidy Hasan Miraz
             runs:
               batsman: 0
               extras: 0
@@ -11172,7 +11172,7 @@ innings:
         - 115.2:
             batsman: Mosaddek Hossain
             bowler: PADLR Sandakan
-            non_striker: Mehedi Hasan Miraz
+            non_striker: Mehidy Hasan Miraz
             runs:
               batsman: 0
               extras: 0
@@ -11180,13 +11180,13 @@ innings:
         - 115.3:
             batsman: Mosaddek Hossain
             bowler: PADLR Sandakan
-            non_striker: Mehedi Hasan Miraz
+            non_striker: Mehidy Hasan Miraz
             runs:
               batsman: 1
               extras: 0
               total: 1
         - 115.4:
-            batsman: Mehedi Hasan Miraz
+            batsman: Mehidy Hasan Miraz
             bowler: PADLR Sandakan
             non_striker: Mosaddek Hossain
             runs:
@@ -11194,7 +11194,7 @@ innings:
               extras: 0
               total: 0
         - 115.5:
-            batsman: Mehedi Hasan Miraz
+            batsman: Mehidy Hasan Miraz
             bowler: PADLR Sandakan
             non_striker: Mosaddek Hossain
             runs:
@@ -11202,7 +11202,7 @@ innings:
               extras: 0
               total: 4
         - 115.6:
-            batsman: Mehedi Hasan Miraz
+            batsman: Mehidy Hasan Miraz
             bowler: PADLR Sandakan
             non_striker: Mosaddek Hossain
             runs:
@@ -11210,7 +11210,7 @@ innings:
               extras: 0
               total: 1
         - 116.1:
-            batsman: Mehedi Hasan Miraz
+            batsman: Mehidy Hasan Miraz
             bowler: HMRKB Herath
             non_striker: Mosaddek Hossain
             runs:
@@ -11218,7 +11218,7 @@ innings:
               extras: 0
               total: 0
         - 116.2:
-            batsman: Mehedi Hasan Miraz
+            batsman: Mehidy Hasan Miraz
             bowler: HMRKB Herath
             non_striker: Mosaddek Hossain
             runs:
@@ -11226,7 +11226,7 @@ innings:
               extras: 0
               total: 0
         - 116.3:
-            batsman: Mehedi Hasan Miraz
+            batsman: Mehidy Hasan Miraz
             bowler: HMRKB Herath
             non_striker: Mosaddek Hossain
             runs:
@@ -11234,7 +11234,7 @@ innings:
               extras: 0
               total: 0
         - 116.4:
-            batsman: Mehedi Hasan Miraz
+            batsman: Mehidy Hasan Miraz
             bowler: HMRKB Herath
             non_striker: Mosaddek Hossain
             runs:
@@ -11242,7 +11242,7 @@ innings:
               extras: 0
               total: 0
         - 116.5:
-            batsman: Mehedi Hasan Miraz
+            batsman: Mehidy Hasan Miraz
             bowler: HMRKB Herath
             non_striker: Mosaddek Hossain
             runs:
@@ -11250,7 +11250,7 @@ innings:
               extras: 0
               total: 0
         - 116.6:
-            batsman: Mehedi Hasan Miraz
+            batsman: Mehidy Hasan Miraz
             bowler: HMRKB Herath
             non_striker: Mosaddek Hossain
             runs:
@@ -11260,7 +11260,7 @@ innings:
         - 117.1:
             batsman: Mosaddek Hossain
             bowler: RAS Lakmal
-            non_striker: Mehedi Hasan Miraz
+            non_striker: Mehidy Hasan Miraz
             runs:
               batsman: 0
               extras: 0
@@ -11268,13 +11268,13 @@ innings:
         - 117.2:
             batsman: Mosaddek Hossain
             bowler: RAS Lakmal
-            non_striker: Mehedi Hasan Miraz
+            non_striker: Mehidy Hasan Miraz
             runs:
               batsman: 1
               extras: 0
               total: 1
         - 117.3:
-            batsman: Mehedi Hasan Miraz
+            batsman: Mehidy Hasan Miraz
             bowler: RAS Lakmal
             non_striker: Mosaddek Hossain
             runs:
@@ -11282,7 +11282,7 @@ innings:
               extras: 0
               total: 0
         - 117.4:
-            batsman: Mehedi Hasan Miraz
+            batsman: Mehidy Hasan Miraz
             bowler: RAS Lakmal
             non_striker: Mosaddek Hossain
             runs:
@@ -11290,7 +11290,7 @@ innings:
               extras: 0
               total: 4
         - 117.5:
-            batsman: Mehedi Hasan Miraz
+            batsman: Mehidy Hasan Miraz
             bowler: RAS Lakmal
             non_striker: Mosaddek Hossain
             runs:
@@ -11300,13 +11300,13 @@ innings:
         - 117.6:
             batsman: Mosaddek Hossain
             bowler: RAS Lakmal
-            non_striker: Mehedi Hasan Miraz
+            non_striker: Mehidy Hasan Miraz
             runs:
               batsman: 0
               extras: 0
               total: 0
         - 118.1:
-            batsman: Mehedi Hasan Miraz
+            batsman: Mehidy Hasan Miraz
             bowler: HMRKB Herath
             non_striker: Mosaddek Hossain
             runs:
@@ -11314,7 +11314,7 @@ innings:
               extras: 0
               total: 0
         - 118.2:
-            batsman: Mehedi Hasan Miraz
+            batsman: Mehidy Hasan Miraz
             bowler: HMRKB Herath
             non_striker: Mosaddek Hossain
             runs:
@@ -11322,7 +11322,7 @@ innings:
               extras: 0
               total: 0
         - 118.3:
-            batsman: Mehedi Hasan Miraz
+            batsman: Mehidy Hasan Miraz
             bowler: HMRKB Herath
             non_striker: Mosaddek Hossain
             runs:
@@ -11332,13 +11332,13 @@ innings:
         - 118.4:
             batsman: Mosaddek Hossain
             bowler: HMRKB Herath
-            non_striker: Mehedi Hasan Miraz
+            non_striker: Mehidy Hasan Miraz
             runs:
               batsman: 1
               extras: 0
               total: 1
         - 118.5:
-            batsman: Mehedi Hasan Miraz
+            batsman: Mehidy Hasan Miraz
             bowler: HMRKB Herath
             non_striker: Mosaddek Hossain
             runs:
@@ -11346,7 +11346,7 @@ innings:
               extras: 0
               total: 0
         - 118.6:
-            batsman: Mehedi Hasan Miraz
+            batsman: Mehidy Hasan Miraz
             bowler: HMRKB Herath
             non_striker: Mosaddek Hossain
             runs:
@@ -11356,7 +11356,7 @@ innings:
         - 119.1:
             batsman: Mosaddek Hossain
             bowler: RAS Lakmal
-            non_striker: Mehedi Hasan Miraz
+            non_striker: Mehidy Hasan Miraz
             runs:
               batsman: 0
               extras: 0
@@ -11364,13 +11364,13 @@ innings:
         - 119.2:
             batsman: Mosaddek Hossain
             bowler: RAS Lakmal
-            non_striker: Mehedi Hasan Miraz
+            non_striker: Mehidy Hasan Miraz
             runs:
               batsman: 1
               extras: 0
               total: 1
         - 119.3:
-            batsman: Mehedi Hasan Miraz
+            batsman: Mehidy Hasan Miraz
             bowler: RAS Lakmal
             non_striker: Mosaddek Hossain
             runs:
@@ -11378,7 +11378,7 @@ innings:
               extras: 0
               total: 0
         - 119.4:
-            batsman: Mehedi Hasan Miraz
+            batsman: Mehidy Hasan Miraz
             bowler: RAS Lakmal
             non_striker: Mosaddek Hossain
             runs:
@@ -11386,7 +11386,7 @@ innings:
               extras: 0
               total: 0
         - 119.5:
-            batsman: Mehedi Hasan Miraz
+            batsman: Mehidy Hasan Miraz
             bowler: RAS Lakmal
             non_striker: Mosaddek Hossain
             runs:
@@ -11394,7 +11394,7 @@ innings:
               extras: 0
               total: 0
         - 119.6:
-            batsman: Mehedi Hasan Miraz
+            batsman: Mehidy Hasan Miraz
             bowler: RAS Lakmal
             non_striker: Mosaddek Hossain
             runs:
@@ -11404,13 +11404,13 @@ innings:
         - 120.1:
             batsman: Mosaddek Hossain
             bowler: HMRKB Herath
-            non_striker: Mehedi Hasan Miraz
+            non_striker: Mehidy Hasan Miraz
             runs:
               batsman: 1
               extras: 0
               total: 1
         - 120.2:
-            batsman: Mehedi Hasan Miraz
+            batsman: Mehidy Hasan Miraz
             bowler: HMRKB Herath
             non_striker: Mosaddek Hossain
             runs:
@@ -11418,7 +11418,7 @@ innings:
               extras: 0
               total: 0
         - 120.3:
-            batsman: Mehedi Hasan Miraz
+            batsman: Mehidy Hasan Miraz
             bowler: HMRKB Herath
             non_striker: Mosaddek Hossain
             runs:
@@ -11428,7 +11428,7 @@ innings:
         - 120.4:
             batsman: Mosaddek Hossain
             bowler: HMRKB Herath
-            non_striker: Mehedi Hasan Miraz
+            non_striker: Mehidy Hasan Miraz
             runs:
               batsman: 0
               extras: 0
@@ -11436,7 +11436,7 @@ innings:
         - 120.5:
             batsman: Mosaddek Hossain
             bowler: HMRKB Herath
-            non_striker: Mehedi Hasan Miraz
+            non_striker: Mehidy Hasan Miraz
             runs:
               batsman: 0
               extras: 0
@@ -11444,13 +11444,13 @@ innings:
         - 120.6:
             batsman: Mosaddek Hossain
             bowler: HMRKB Herath
-            non_striker: Mehedi Hasan Miraz
+            non_striker: Mehidy Hasan Miraz
             runs:
               batsman: 0
               extras: 0
               total: 0
         - 121.1:
-            batsman: Mehedi Hasan Miraz
+            batsman: Mehidy Hasan Miraz
             bowler: PADLR Sandakan
             non_striker: Mosaddek Hossain
             runs:
@@ -11460,13 +11460,13 @@ innings:
         - 121.2:
             batsman: Mosaddek Hossain
             bowler: PADLR Sandakan
-            non_striker: Mehedi Hasan Miraz
+            non_striker: Mehidy Hasan Miraz
             runs:
               batsman: 1
               extras: 0
               total: 1
         - 121.3:
-            batsman: Mehedi Hasan Miraz
+            batsman: Mehidy Hasan Miraz
             bowler: PADLR Sandakan
             non_striker: Mosaddek Hossain
             runs:
@@ -11474,7 +11474,7 @@ innings:
               extras: 0
               total: 0
         - 121.4:
-            batsman: Mehedi Hasan Miraz
+            batsman: Mehidy Hasan Miraz
             bowler: PADLR Sandakan
             non_striker: Mosaddek Hossain
             runs:
@@ -11482,7 +11482,7 @@ innings:
               extras: 0
               total: 0
         - 121.5:
-            batsman: Mehedi Hasan Miraz
+            batsman: Mehidy Hasan Miraz
             bowler: PADLR Sandakan
             non_striker: Mosaddek Hossain
             runs:
@@ -11492,13 +11492,13 @@ innings:
         - 121.6:
             batsman: Mosaddek Hossain
             bowler: PADLR Sandakan
-            non_striker: Mehedi Hasan Miraz
+            non_striker: Mehidy Hasan Miraz
             runs:
               batsman: 0
               extras: 0
               total: 0
         - 122.1:
-            batsman: Mehedi Hasan Miraz
+            batsman: Mehidy Hasan Miraz
             bowler: HMRKB Herath
             non_striker: Mosaddek Hossain
             runs:
@@ -11506,7 +11506,7 @@ innings:
               extras: 0
               total: 0
         - 122.2:
-            batsman: Mehedi Hasan Miraz
+            batsman: Mehidy Hasan Miraz
             bowler: HMRKB Herath
             non_striker: Mosaddek Hossain
             runs:
@@ -11514,7 +11514,7 @@ innings:
               extras: 0
               total: 0
         - 122.3:
-            batsman: Mehedi Hasan Miraz
+            batsman: Mehidy Hasan Miraz
             bowler: HMRKB Herath
             non_striker: Mosaddek Hossain
             runs:
@@ -11522,7 +11522,7 @@ innings:
               extras: 0
               total: 0
         - 122.4:
-            batsman: Mehedi Hasan Miraz
+            batsman: Mehidy Hasan Miraz
             bowler: HMRKB Herath
             non_striker: Mosaddek Hossain
             runs:
@@ -11532,7 +11532,7 @@ innings:
         - 122.5:
             batsman: Mosaddek Hossain
             bowler: HMRKB Herath
-            non_striker: Mehedi Hasan Miraz
+            non_striker: Mehidy Hasan Miraz
             runs:
               batsman: 0
               extras: 0
@@ -11540,13 +11540,13 @@ innings:
         - 122.6:
             batsman: Mosaddek Hossain
             bowler: HMRKB Herath
-            non_striker: Mehedi Hasan Miraz
+            non_striker: Mehidy Hasan Miraz
             runs:
               batsman: 0
               extras: 0
               total: 0
         - 123.1:
-            batsman: Mehedi Hasan Miraz
+            batsman: Mehidy Hasan Miraz
             bowler: PADLR Sandakan
             non_striker: Mosaddek Hossain
             runs:
@@ -11554,7 +11554,7 @@ innings:
               extras: 0
               total: 0
         - 123.2:
-            batsman: Mehedi Hasan Miraz
+            batsman: Mehidy Hasan Miraz
             bowler: PADLR Sandakan
             non_striker: Mosaddek Hossain
             runs:
@@ -11564,13 +11564,13 @@ innings:
         - 123.3:
             batsman: Mosaddek Hossain
             bowler: PADLR Sandakan
-            non_striker: Mehedi Hasan Miraz
+            non_striker: Mehidy Hasan Miraz
             runs:
               batsman: 1
               extras: 0
               total: 1
         - 123.4:
-            batsman: Mehedi Hasan Miraz
+            batsman: Mehidy Hasan Miraz
             bowler: PADLR Sandakan
             non_striker: Mosaddek Hossain
             runs:
@@ -11580,7 +11580,7 @@ innings:
         - 123.5:
             batsman: Mosaddek Hossain
             bowler: PADLR Sandakan
-            non_striker: Mehedi Hasan Miraz
+            non_striker: Mehidy Hasan Miraz
             runs:
               batsman: 0
               extras: 0
@@ -11588,13 +11588,13 @@ innings:
         - 123.6:
             batsman: Mosaddek Hossain
             bowler: PADLR Sandakan
-            non_striker: Mehedi Hasan Miraz
+            non_striker: Mehidy Hasan Miraz
             runs:
               batsman: 0
               extras: 0
               total: 0
         - 124.1:
-            batsman: Mehedi Hasan Miraz
+            batsman: Mehidy Hasan Miraz
             bowler: HMRKB Herath
             non_striker: Mosaddek Hossain
             runs:
@@ -11602,7 +11602,7 @@ innings:
               extras: 0
               total: 0
         - 124.2:
-            batsman: Mehedi Hasan Miraz
+            batsman: Mehidy Hasan Miraz
             bowler: HMRKB Herath
             non_striker: Mosaddek Hossain
             runs:
@@ -11610,7 +11610,7 @@ innings:
               extras: 0
               total: 0
         - 124.3:
-            batsman: Mehedi Hasan Miraz
+            batsman: Mehidy Hasan Miraz
             bowler: HMRKB Herath
             non_striker: Mosaddek Hossain
             runs:
@@ -11618,7 +11618,7 @@ innings:
               extras: 0
               total: 0
         - 124.4:
-            batsman: Mehedi Hasan Miraz
+            batsman: Mehidy Hasan Miraz
             bowler: HMRKB Herath
             non_striker: Mosaddek Hossain
             runs:
@@ -11628,7 +11628,7 @@ innings:
         - 124.5:
             batsman: Mosaddek Hossain
             bowler: HMRKB Herath
-            non_striker: Mehedi Hasan Miraz
+            non_striker: Mehidy Hasan Miraz
             runs:
               batsman: 0
               extras: 0
@@ -11636,13 +11636,13 @@ innings:
         - 124.6:
             batsman: Mosaddek Hossain
             bowler: HMRKB Herath
-            non_striker: Mehedi Hasan Miraz
+            non_striker: Mehidy Hasan Miraz
             runs:
               batsman: 0
               extras: 0
               total: 0
         - 125.1:
-            batsman: Mehedi Hasan Miraz
+            batsman: Mehidy Hasan Miraz
             bowler: DM de Silva
             non_striker: Mosaddek Hossain
             runs:
@@ -11650,7 +11650,7 @@ innings:
               extras: 0
               total: 2
         - 125.2:
-            batsman: Mehedi Hasan Miraz
+            batsman: Mehidy Hasan Miraz
             bowler: DM de Silva
             non_striker: Mosaddek Hossain
             runs:
@@ -11660,7 +11660,7 @@ innings:
         - 125.3:
             batsman: Mosaddek Hossain
             bowler: DM de Silva
-            non_striker: Mehedi Hasan Miraz
+            non_striker: Mehidy Hasan Miraz
             runs:
               batsman: 0
               extras: 0
@@ -11668,7 +11668,7 @@ innings:
         - 125.4:
             batsman: Mosaddek Hossain
             bowler: DM de Silva
-            non_striker: Mehedi Hasan Miraz
+            non_striker: Mehidy Hasan Miraz
             runs:
               batsman: 0
               extras: 0
@@ -11676,7 +11676,7 @@ innings:
         - 125.5:
             batsman: Mosaddek Hossain
             bowler: DM de Silva
-            non_striker: Mehedi Hasan Miraz
+            non_striker: Mehidy Hasan Miraz
             runs:
               batsman: 0
               extras: 0
@@ -11684,7 +11684,7 @@ innings:
         - 125.6:
             batsman: Mosaddek Hossain
             bowler: DM de Silva
-            non_striker: Mehedi Hasan Miraz
+            non_striker: Mehidy Hasan Miraz
             runs:
               batsman: 1
               extras: 0
@@ -11692,7 +11692,7 @@ innings:
         - 126.1:
             batsman: Mosaddek Hossain
             bowler: HMRKB Herath
-            non_striker: Mehedi Hasan Miraz
+            non_striker: Mehidy Hasan Miraz
             runs:
               batsman: 0
               extras: 0
@@ -11700,7 +11700,7 @@ innings:
         - 126.2:
             batsman: Mosaddek Hossain
             bowler: HMRKB Herath
-            non_striker: Mehedi Hasan Miraz
+            non_striker: Mehidy Hasan Miraz
             runs:
               batsman: 0
               extras: 0
@@ -11708,7 +11708,7 @@ innings:
         - 126.3:
             batsman: Mosaddek Hossain
             bowler: HMRKB Herath
-            non_striker: Mehedi Hasan Miraz
+            non_striker: Mehidy Hasan Miraz
             runs:
               batsman: 0
               extras: 0
@@ -11716,7 +11716,7 @@ innings:
         - 126.4:
             batsman: Mosaddek Hossain
             bowler: HMRKB Herath
-            non_striker: Mehedi Hasan Miraz
+            non_striker: Mehidy Hasan Miraz
             runs:
               batsman: 0
               extras: 0
@@ -11724,7 +11724,7 @@ innings:
         - 126.5:
             batsman: Mosaddek Hossain
             bowler: HMRKB Herath
-            non_striker: Mehedi Hasan Miraz
+            non_striker: Mehidy Hasan Miraz
             runs:
               batsman: 0
               extras: 0
@@ -11732,13 +11732,13 @@ innings:
         - 126.6:
             batsman: Mosaddek Hossain
             bowler: HMRKB Herath
-            non_striker: Mehedi Hasan Miraz
+            non_striker: Mehidy Hasan Miraz
             runs:
               batsman: 0
               extras: 0
               total: 0
         - 127.1:
-            batsman: Mehedi Hasan Miraz
+            batsman: Mehidy Hasan Miraz
             bowler: DM de Silva
             non_striker: Mosaddek Hossain
             runs:
@@ -11746,7 +11746,7 @@ innings:
               extras: 0
               total: 0
         - 127.2:
-            batsman: Mehedi Hasan Miraz
+            batsman: Mehidy Hasan Miraz
             bowler: DM de Silva
             non_striker: Mosaddek Hossain
             runs:
@@ -11754,7 +11754,7 @@ innings:
               extras: 0
               total: 0
         - 127.3:
-            batsman: Mehedi Hasan Miraz
+            batsman: Mehidy Hasan Miraz
             bowler: DM de Silva
             non_striker: Mosaddek Hossain
             runs:
@@ -11762,7 +11762,7 @@ innings:
               extras: 0
               total: 0
         - 127.4:
-            batsman: Mehedi Hasan Miraz
+            batsman: Mehidy Hasan Miraz
             bowler: DM de Silva
             non_striker: Mosaddek Hossain
             runs:
@@ -11772,7 +11772,7 @@ innings:
         - 127.5:
             batsman: Mosaddek Hossain
             bowler: DM de Silva
-            non_striker: Mehedi Hasan Miraz
+            non_striker: Mehidy Hasan Miraz
             runs:
               batsman: 0
               extras: 0
@@ -11780,13 +11780,13 @@ innings:
         - 127.6:
             batsman: Mosaddek Hossain
             bowler: DM de Silva
-            non_striker: Mehedi Hasan Miraz
+            non_striker: Mehidy Hasan Miraz
             runs:
               batsman: 0
               extras: 0
               total: 0
         - 128.1:
-            batsman: Mehedi Hasan Miraz
+            batsman: Mehidy Hasan Miraz
             bowler: HMRKB Herath
             non_striker: Mosaddek Hossain
             runs:
@@ -11795,7 +11795,7 @@ innings:
               total: 0
             wicket:
               kind: lbw
-              player_out: Mehedi Hasan Miraz
+              player_out: Mehidy Hasan Miraz
         - 128.2:
             batsman: Mustafizur Rahman
             bowler: HMRKB Herath
@@ -12145,7 +12145,7 @@ innings:
               total: 2
         - 1.1:
             batsman: WU Tharanga
-            bowler: Mehedi Hasan Miraz
+            bowler: Mehidy Hasan Miraz
             non_striker: FDM Karunaratne
             runs:
               batsman: 2
@@ -12153,7 +12153,7 @@ innings:
               total: 2
         - 1.2:
             batsman: WU Tharanga
-            bowler: Mehedi Hasan Miraz
+            bowler: Mehidy Hasan Miraz
             non_striker: FDM Karunaratne
             runs:
               batsman: 4
@@ -12161,7 +12161,7 @@ innings:
               total: 4
         - 1.3:
             batsman: WU Tharanga
-            bowler: Mehedi Hasan Miraz
+            bowler: Mehidy Hasan Miraz
             non_striker: FDM Karunaratne
             runs:
               batsman: 2
@@ -12169,7 +12169,7 @@ innings:
               total: 2
         - 1.4:
             batsman: WU Tharanga
-            bowler: Mehedi Hasan Miraz
+            bowler: Mehidy Hasan Miraz
             non_striker: FDM Karunaratne
             runs:
               batsman: 0
@@ -12177,7 +12177,7 @@ innings:
               total: 0
         - 1.5:
             batsman: WU Tharanga
-            bowler: Mehedi Hasan Miraz
+            bowler: Mehidy Hasan Miraz
             non_striker: FDM Karunaratne
             runs:
               batsman: 0
@@ -12185,7 +12185,7 @@ innings:
               total: 0
         - 1.6:
             batsman: WU Tharanga
-            bowler: Mehedi Hasan Miraz
+            bowler: Mehidy Hasan Miraz
             non_striker: FDM Karunaratne
             runs:
               batsman: 0
@@ -12241,7 +12241,7 @@ innings:
               total: 0
         - 3.1:
             batsman: WU Tharanga
-            bowler: Mehedi Hasan Miraz
+            bowler: Mehidy Hasan Miraz
             non_striker: FDM Karunaratne
             runs:
               batsman: 0
@@ -12249,7 +12249,7 @@ innings:
               total: 0
         - 3.2:
             batsman: WU Tharanga
-            bowler: Mehedi Hasan Miraz
+            bowler: Mehidy Hasan Miraz
             non_striker: FDM Karunaratne
             runs:
               batsman: 0
@@ -12257,7 +12257,7 @@ innings:
               total: 0
         - 3.3:
             batsman: WU Tharanga
-            bowler: Mehedi Hasan Miraz
+            bowler: Mehidy Hasan Miraz
             non_striker: FDM Karunaratne
             runs:
               batsman: 2
@@ -12265,7 +12265,7 @@ innings:
               total: 2
         - 3.4:
             batsman: WU Tharanga
-            bowler: Mehedi Hasan Miraz
+            bowler: Mehidy Hasan Miraz
             non_striker: FDM Karunaratne
             runs:
               batsman: 0
@@ -12273,7 +12273,7 @@ innings:
               total: 0
         - 3.5:
             batsman: WU Tharanga
-            bowler: Mehedi Hasan Miraz
+            bowler: Mehidy Hasan Miraz
             non_striker: FDM Karunaratne
             runs:
               batsman: 0
@@ -12281,7 +12281,7 @@ innings:
               total: 0
         - 3.6:
             batsman: WU Tharanga
-            bowler: Mehedi Hasan Miraz
+            bowler: Mehidy Hasan Miraz
             non_striker: FDM Karunaratne
             runs:
               batsman: 0
@@ -12337,7 +12337,7 @@ innings:
               total: 0
         - 5.1:
             batsman: WU Tharanga
-            bowler: Mehedi Hasan Miraz
+            bowler: Mehidy Hasan Miraz
             non_striker: FDM Karunaratne
             runs:
               batsman: 4
@@ -12345,7 +12345,7 @@ innings:
               total: 4
         - 5.2:
             batsman: WU Tharanga
-            bowler: Mehedi Hasan Miraz
+            bowler: Mehidy Hasan Miraz
             non_striker: FDM Karunaratne
             runs:
               batsman: 0
@@ -12353,7 +12353,7 @@ innings:
               total: 0
         - 5.3:
             batsman: WU Tharanga
-            bowler: Mehedi Hasan Miraz
+            bowler: Mehidy Hasan Miraz
             non_striker: FDM Karunaratne
             runs:
               batsman: 3
@@ -12361,7 +12361,7 @@ innings:
               total: 3
         - 5.4:
             batsman: FDM Karunaratne
-            bowler: Mehedi Hasan Miraz
+            bowler: Mehidy Hasan Miraz
             non_striker: WU Tharanga
             runs:
               batsman: 1
@@ -12369,7 +12369,7 @@ innings:
               total: 1
         - 5.5:
             batsman: WU Tharanga
-            bowler: Mehedi Hasan Miraz
+            bowler: Mehidy Hasan Miraz
             non_striker: FDM Karunaratne
             runs:
               batsman: 0
@@ -12377,7 +12377,7 @@ innings:
               total: 0
         - 5.6:
             batsman: WU Tharanga
-            bowler: Mehedi Hasan Miraz
+            bowler: Mehidy Hasan Miraz
             non_striker: FDM Karunaratne
             runs:
               batsman: 0
@@ -12675,7 +12675,7 @@ innings:
               total: 4
         - 12.1:
             batsman: FDM Karunaratne
-            bowler: Mehedi Hasan Miraz
+            bowler: Mehidy Hasan Miraz
             non_striker: WU Tharanga
             runs:
               batsman: 0
@@ -12683,7 +12683,7 @@ innings:
               total: 0
         - 12.2:
             batsman: FDM Karunaratne
-            bowler: Mehedi Hasan Miraz
+            bowler: Mehidy Hasan Miraz
             non_striker: WU Tharanga
             runs:
               batsman: 0
@@ -12691,7 +12691,7 @@ innings:
               total: 0
         - 12.3:
             batsman: FDM Karunaratne
-            bowler: Mehedi Hasan Miraz
+            bowler: Mehidy Hasan Miraz
             non_striker: WU Tharanga
             runs:
               batsman: 0
@@ -12699,7 +12699,7 @@ innings:
               total: 0
         - 12.4:
             batsman: FDM Karunaratne
-            bowler: Mehedi Hasan Miraz
+            bowler: Mehidy Hasan Miraz
             non_striker: WU Tharanga
             runs:
               batsman: 2
@@ -12707,7 +12707,7 @@ innings:
               total: 2
         - 12.5:
             batsman: FDM Karunaratne
-            bowler: Mehedi Hasan Miraz
+            bowler: Mehidy Hasan Miraz
             non_striker: WU Tharanga
             runs:
               batsman: 0
@@ -12715,7 +12715,7 @@ innings:
               total: 0
         - 12.6:
             batsman: FDM Karunaratne
-            bowler: Mehedi Hasan Miraz
+            bowler: Mehidy Hasan Miraz
             non_striker: WU Tharanga
             runs:
               batsman: 0
@@ -12773,7 +12773,7 @@ innings:
               total: 2
         - 14.1:
             batsman: WU Tharanga
-            bowler: Mehedi Hasan Miraz
+            bowler: Mehidy Hasan Miraz
             non_striker: FDM Karunaratne
             runs:
               batsman: 0
@@ -12784,7 +12784,7 @@ innings:
               player_out: WU Tharanga
         - 14.2:
             batsman: BKG Mendis
-            bowler: Mehedi Hasan Miraz
+            bowler: Mehidy Hasan Miraz
             non_striker: FDM Karunaratne
             runs:
               batsman: 1
@@ -12792,7 +12792,7 @@ innings:
               total: 1
         - 14.3:
             batsman: FDM Karunaratne
-            bowler: Mehedi Hasan Miraz
+            bowler: Mehidy Hasan Miraz
             non_striker: BKG Mendis
             runs:
               batsman: 0
@@ -12800,7 +12800,7 @@ innings:
               total: 0
         - 14.4:
             batsman: FDM Karunaratne
-            bowler: Mehedi Hasan Miraz
+            bowler: Mehidy Hasan Miraz
             non_striker: BKG Mendis
             runs:
               batsman: 1
@@ -12808,7 +12808,7 @@ innings:
               total: 1
         - 14.5:
             batsman: BKG Mendis
-            bowler: Mehedi Hasan Miraz
+            bowler: Mehidy Hasan Miraz
             non_striker: FDM Karunaratne
             runs:
               batsman: 2
@@ -12816,7 +12816,7 @@ innings:
               total: 2
         - 14.6:
             batsman: BKG Mendis
-            bowler: Mehedi Hasan Miraz
+            bowler: Mehidy Hasan Miraz
             non_striker: FDM Karunaratne
             runs:
               batsman: 0
@@ -12874,7 +12874,7 @@ innings:
               total: 0
         - 16.1:
             batsman: BKG Mendis
-            bowler: Mehedi Hasan Miraz
+            bowler: Mehidy Hasan Miraz
             non_striker: FDM Karunaratne
             runs:
               batsman: 0
@@ -12882,7 +12882,7 @@ innings:
               total: 0
         - 16.2:
             batsman: BKG Mendis
-            bowler: Mehedi Hasan Miraz
+            bowler: Mehidy Hasan Miraz
             non_striker: FDM Karunaratne
             runs:
               batsman: 1
@@ -12890,7 +12890,7 @@ innings:
               total: 1
         - 16.3:
             batsman: FDM Karunaratne
-            bowler: Mehedi Hasan Miraz
+            bowler: Mehidy Hasan Miraz
             non_striker: BKG Mendis
             runs:
               batsman: 0
@@ -12898,7 +12898,7 @@ innings:
               total: 0
         - 16.4:
             batsman: FDM Karunaratne
-            bowler: Mehedi Hasan Miraz
+            bowler: Mehidy Hasan Miraz
             non_striker: BKG Mendis
             runs:
               batsman: 0
@@ -12906,7 +12906,7 @@ innings:
               total: 0
         - 16.5:
             batsman: FDM Karunaratne
-            bowler: Mehedi Hasan Miraz
+            bowler: Mehidy Hasan Miraz
             non_striker: BKG Mendis
             runs:
               batsman: 0
@@ -12914,7 +12914,7 @@ innings:
               total: 0
         - 16.6:
             batsman: FDM Karunaratne
-            bowler: Mehedi Hasan Miraz
+            bowler: Mehidy Hasan Miraz
             non_striker: BKG Mendis
             runs:
               batsman: 0
@@ -12970,7 +12970,7 @@ innings:
               total: 0
         - 18.1:
             batsman: FDM Karunaratne
-            bowler: Mehedi Hasan Miraz
+            bowler: Mehidy Hasan Miraz
             non_striker: BKG Mendis
             runs:
               batsman: 0
@@ -12978,7 +12978,7 @@ innings:
               total: 0
         - 18.2:
             batsman: FDM Karunaratne
-            bowler: Mehedi Hasan Miraz
+            bowler: Mehidy Hasan Miraz
             non_striker: BKG Mendis
             runs:
               batsman: 1
@@ -12986,7 +12986,7 @@ innings:
               total: 1
         - 18.3:
             batsman: BKG Mendis
-            bowler: Mehedi Hasan Miraz
+            bowler: Mehidy Hasan Miraz
             non_striker: FDM Karunaratne
             runs:
               batsman: 0
@@ -12994,7 +12994,7 @@ innings:
               total: 0
         - 18.4:
             batsman: BKG Mendis
-            bowler: Mehedi Hasan Miraz
+            bowler: Mehidy Hasan Miraz
             non_striker: FDM Karunaratne
             runs:
               batsman: 1
@@ -13002,7 +13002,7 @@ innings:
               total: 1
         - 18.5:
             batsman: FDM Karunaratne
-            bowler: Mehedi Hasan Miraz
+            bowler: Mehidy Hasan Miraz
             non_striker: BKG Mendis
             runs:
               batsman: 0
@@ -13010,7 +13010,7 @@ innings:
               total: 0
         - 18.6:
             batsman: FDM Karunaratne
-            bowler: Mehedi Hasan Miraz
+            bowler: Mehidy Hasan Miraz
             non_striker: BKG Mendis
             runs:
               batsman: 0
@@ -13066,7 +13066,7 @@ innings:
               total: 0
         - 20.1:
             batsman: BKG Mendis
-            bowler: Mehedi Hasan Miraz
+            bowler: Mehidy Hasan Miraz
             non_striker: FDM Karunaratne
             runs:
               batsman: 0
@@ -13074,7 +13074,7 @@ innings:
               total: 0
         - 20.2:
             batsman: BKG Mendis
-            bowler: Mehedi Hasan Miraz
+            bowler: Mehidy Hasan Miraz
             non_striker: FDM Karunaratne
             runs:
               batsman: 1
@@ -13082,7 +13082,7 @@ innings:
               total: 1
         - 20.3:
             batsman: FDM Karunaratne
-            bowler: Mehedi Hasan Miraz
+            bowler: Mehidy Hasan Miraz
             non_striker: BKG Mendis
             runs:
               batsman: 2
@@ -13090,7 +13090,7 @@ innings:
               total: 2
         - 20.4:
             batsman: FDM Karunaratne
-            bowler: Mehedi Hasan Miraz
+            bowler: Mehidy Hasan Miraz
             non_striker: BKG Mendis
             runs:
               batsman: 0
@@ -13098,7 +13098,7 @@ innings:
               total: 0
         - 20.5:
             batsman: FDM Karunaratne
-            bowler: Mehedi Hasan Miraz
+            bowler: Mehidy Hasan Miraz
             non_striker: BKG Mendis
             runs:
               batsman: 1
@@ -13106,7 +13106,7 @@ innings:
               total: 1
         - 20.6:
             batsman: BKG Mendis
-            bowler: Mehedi Hasan Miraz
+            bowler: Mehidy Hasan Miraz
             non_striker: FDM Karunaratne
             runs:
               batsman: 0
@@ -13162,7 +13162,7 @@ innings:
               total: 1
         - 22.1:
             batsman: BKG Mendis
-            bowler: Mehedi Hasan Miraz
+            bowler: Mehidy Hasan Miraz
             non_striker: FDM Karunaratne
             runs:
               batsman: 0
@@ -13170,7 +13170,7 @@ innings:
               total: 0
         - 22.2:
             batsman: BKG Mendis
-            bowler: Mehedi Hasan Miraz
+            bowler: Mehidy Hasan Miraz
             non_striker: FDM Karunaratne
             runs:
               batsman: 0
@@ -13178,7 +13178,7 @@ innings:
               total: 0
         - 22.3:
             batsman: BKG Mendis
-            bowler: Mehedi Hasan Miraz
+            bowler: Mehidy Hasan Miraz
             non_striker: FDM Karunaratne
             runs:
               batsman: 1
@@ -13186,7 +13186,7 @@ innings:
               total: 1
         - 22.4:
             batsman: FDM Karunaratne
-            bowler: Mehedi Hasan Miraz
+            bowler: Mehidy Hasan Miraz
             non_striker: BKG Mendis
             runs:
               batsman: 0
@@ -13194,7 +13194,7 @@ innings:
               total: 0
         - 22.5:
             batsman: FDM Karunaratne
-            bowler: Mehedi Hasan Miraz
+            bowler: Mehidy Hasan Miraz
             non_striker: BKG Mendis
             runs:
               batsman: 0
@@ -13202,7 +13202,7 @@ innings:
               total: 0
         - 22.6:
             batsman: FDM Karunaratne
-            bowler: Mehedi Hasan Miraz
+            bowler: Mehidy Hasan Miraz
             non_striker: BKG Mendis
             runs:
               batsman: 1
@@ -13258,7 +13258,7 @@ innings:
               total: 1
         - 24.1:
             batsman: BKG Mendis
-            bowler: Mehedi Hasan Miraz
+            bowler: Mehidy Hasan Miraz
             non_striker: FDM Karunaratne
             runs:
               batsman: 1
@@ -13266,7 +13266,7 @@ innings:
               total: 1
         - 24.2:
             batsman: FDM Karunaratne
-            bowler: Mehedi Hasan Miraz
+            bowler: Mehidy Hasan Miraz
             non_striker: BKG Mendis
             runs:
               batsman: 1
@@ -13274,7 +13274,7 @@ innings:
               total: 1
         - 24.3:
             batsman: BKG Mendis
-            bowler: Mehedi Hasan Miraz
+            bowler: Mehidy Hasan Miraz
             non_striker: FDM Karunaratne
             runs:
               batsman: 0
@@ -13282,7 +13282,7 @@ innings:
               total: 0
         - 24.4:
             batsman: BKG Mendis
-            bowler: Mehedi Hasan Miraz
+            bowler: Mehidy Hasan Miraz
             non_striker: FDM Karunaratne
             runs:
               batsman: 1
@@ -13290,7 +13290,7 @@ innings:
               total: 1
         - 24.5:
             batsman: FDM Karunaratne
-            bowler: Mehedi Hasan Miraz
+            bowler: Mehidy Hasan Miraz
             non_striker: BKG Mendis
             runs:
               batsman: 0
@@ -13298,7 +13298,7 @@ innings:
               total: 0
         - 24.6:
             batsman: FDM Karunaratne
-            bowler: Mehedi Hasan Miraz
+            bowler: Mehidy Hasan Miraz
             non_striker: BKG Mendis
             runs:
               batsman: 0
@@ -13354,7 +13354,7 @@ innings:
               total: 0
         - 26.1:
             batsman: FDM Karunaratne
-            bowler: Mehedi Hasan Miraz
+            bowler: Mehidy Hasan Miraz
             non_striker: BKG Mendis
             runs:
               batsman: 0
@@ -13362,7 +13362,7 @@ innings:
               total: 0
         - 26.2:
             batsman: FDM Karunaratne
-            bowler: Mehedi Hasan Miraz
+            bowler: Mehidy Hasan Miraz
             non_striker: BKG Mendis
             runs:
               batsman: 1
@@ -13370,7 +13370,7 @@ innings:
               total: 1
         - 26.3:
             batsman: BKG Mendis
-            bowler: Mehedi Hasan Miraz
+            bowler: Mehidy Hasan Miraz
             non_striker: FDM Karunaratne
             runs:
               batsman: 1
@@ -13378,7 +13378,7 @@ innings:
               total: 1
         - 26.4:
             batsman: FDM Karunaratne
-            bowler: Mehedi Hasan Miraz
+            bowler: Mehidy Hasan Miraz
             non_striker: BKG Mendis
             runs:
               batsman: 0
@@ -13386,7 +13386,7 @@ innings:
               total: 0
         - 26.5:
             batsman: FDM Karunaratne
-            bowler: Mehedi Hasan Miraz
+            bowler: Mehidy Hasan Miraz
             non_striker: BKG Mendis
             runs:
               batsman: 1
@@ -13394,7 +13394,7 @@ innings:
               total: 1
         - 26.6:
             batsman: BKG Mendis
-            bowler: Mehedi Hasan Miraz
+            bowler: Mehidy Hasan Miraz
             non_striker: FDM Karunaratne
             runs:
               batsman: 0
@@ -13738,7 +13738,7 @@ innings:
               total: 0
         - 34.1:
             batsman: FDM Karunaratne
-            bowler: Mehedi Hasan Miraz
+            bowler: Mehidy Hasan Miraz
             non_striker: BKG Mendis
             runs:
               batsman: 2
@@ -13746,7 +13746,7 @@ innings:
               total: 2
         - 34.2:
             batsman: FDM Karunaratne
-            bowler: Mehedi Hasan Miraz
+            bowler: Mehidy Hasan Miraz
             non_striker: BKG Mendis
             runs:
               batsman: 0
@@ -13754,7 +13754,7 @@ innings:
               total: 0
         - 34.3:
             batsman: FDM Karunaratne
-            bowler: Mehedi Hasan Miraz
+            bowler: Mehidy Hasan Miraz
             non_striker: BKG Mendis
             runs:
               batsman: 0
@@ -13762,7 +13762,7 @@ innings:
               total: 0
         - 34.4:
             batsman: FDM Karunaratne
-            bowler: Mehedi Hasan Miraz
+            bowler: Mehidy Hasan Miraz
             non_striker: BKG Mendis
             runs:
               batsman: 0
@@ -13770,7 +13770,7 @@ innings:
               total: 0
         - 34.5:
             batsman: FDM Karunaratne
-            bowler: Mehedi Hasan Miraz
+            bowler: Mehidy Hasan Miraz
             non_striker: BKG Mendis
             runs:
               batsman: 0
@@ -13778,7 +13778,7 @@ innings:
               total: 0
         - 34.6:
             batsman: FDM Karunaratne
-            bowler: Mehedi Hasan Miraz
+            bowler: Mehidy Hasan Miraz
             non_striker: BKG Mendis
             runs:
               batsman: 1
@@ -13834,7 +13834,7 @@ innings:
               total: 0
         - 36.1:
             batsman: BKG Mendis
-            bowler: Mehedi Hasan Miraz
+            bowler: Mehidy Hasan Miraz
             non_striker: FDM Karunaratne
             runs:
               batsman: 0
@@ -13842,7 +13842,7 @@ innings:
               total: 0
         - 36.2:
             batsman: BKG Mendis
-            bowler: Mehedi Hasan Miraz
+            bowler: Mehidy Hasan Miraz
             non_striker: FDM Karunaratne
             runs:
               batsman: 0
@@ -13850,7 +13850,7 @@ innings:
               total: 0
         - 36.3:
             batsman: BKG Mendis
-            bowler: Mehedi Hasan Miraz
+            bowler: Mehidy Hasan Miraz
             non_striker: FDM Karunaratne
             runs:
               batsman: 0
@@ -13858,7 +13858,7 @@ innings:
               total: 0
         - 36.4:
             batsman: BKG Mendis
-            bowler: Mehedi Hasan Miraz
+            bowler: Mehidy Hasan Miraz
             non_striker: FDM Karunaratne
             runs:
               batsman: 1
@@ -13866,7 +13866,7 @@ innings:
               total: 1
         - 36.5:
             batsman: FDM Karunaratne
-            bowler: Mehedi Hasan Miraz
+            bowler: Mehidy Hasan Miraz
             non_striker: BKG Mendis
             runs:
               batsman: 0
@@ -13874,7 +13874,7 @@ innings:
               total: 0
         - 36.6:
             batsman: FDM Karunaratne
-            bowler: Mehedi Hasan Miraz
+            bowler: Mehidy Hasan Miraz
             non_striker: BKG Mendis
             runs:
               batsman: 0
@@ -13930,7 +13930,7 @@ innings:
               total: 0
         - 38.1:
             batsman: FDM Karunaratne
-            bowler: Mehedi Hasan Miraz
+            bowler: Mehidy Hasan Miraz
             non_striker: BKG Mendis
             runs:
               batsman: 0
@@ -13938,7 +13938,7 @@ innings:
               total: 0
         - 38.2:
             batsman: FDM Karunaratne
-            bowler: Mehedi Hasan Miraz
+            bowler: Mehidy Hasan Miraz
             non_striker: BKG Mendis
             runs:
               batsman: 1
@@ -13946,7 +13946,7 @@ innings:
               total: 1
         - 38.3:
             batsman: BKG Mendis
-            bowler: Mehedi Hasan Miraz
+            bowler: Mehidy Hasan Miraz
             non_striker: FDM Karunaratne
             runs:
               batsman: 1
@@ -13954,7 +13954,7 @@ innings:
               total: 1
         - 38.4:
             batsman: FDM Karunaratne
-            bowler: Mehedi Hasan Miraz
+            bowler: Mehidy Hasan Miraz
             non_striker: BKG Mendis
             runs:
               batsman: 0
@@ -13962,7 +13962,7 @@ innings:
               total: 0
         - 38.5:
             batsman: FDM Karunaratne
-            bowler: Mehedi Hasan Miraz
+            bowler: Mehidy Hasan Miraz
             non_striker: BKG Mendis
             runs:
               batsman: 0
@@ -13970,7 +13970,7 @@ innings:
               total: 0
         - 38.6:
             batsman: FDM Karunaratne
-            bowler: Mehedi Hasan Miraz
+            bowler: Mehidy Hasan Miraz
             non_striker: BKG Mendis
             runs:
               batsman: 0
@@ -14026,7 +14026,7 @@ innings:
               total: 0
         - 40.1:
             batsman: FDM Karunaratne
-            bowler: Mehedi Hasan Miraz
+            bowler: Mehidy Hasan Miraz
             non_striker: BKG Mendis
             runs:
               batsman: 0
@@ -14034,7 +14034,7 @@ innings:
               total: 0
         - 40.2:
             batsman: FDM Karunaratne
-            bowler: Mehedi Hasan Miraz
+            bowler: Mehidy Hasan Miraz
             non_striker: BKG Mendis
             runs:
               batsman: 0
@@ -14042,7 +14042,7 @@ innings:
               total: 0
         - 40.3:
             batsman: FDM Karunaratne
-            bowler: Mehedi Hasan Miraz
+            bowler: Mehidy Hasan Miraz
             non_striker: BKG Mendis
             runs:
               batsman: 1
@@ -14050,7 +14050,7 @@ innings:
               total: 1
         - 40.4:
             batsman: BKG Mendis
-            bowler: Mehedi Hasan Miraz
+            bowler: Mehidy Hasan Miraz
             non_striker: FDM Karunaratne
             runs:
               batsman: 0
@@ -14058,7 +14058,7 @@ innings:
               total: 0
         - 40.5:
             batsman: BKG Mendis
-            bowler: Mehedi Hasan Miraz
+            bowler: Mehidy Hasan Miraz
             non_striker: FDM Karunaratne
             runs:
               batsman: 4
@@ -14066,7 +14066,7 @@ innings:
               total: 4
         - 40.6:
             batsman: BKG Mendis
-            bowler: Mehedi Hasan Miraz
+            bowler: Mehidy Hasan Miraz
             non_striker: FDM Karunaratne
             runs:
               batsman: 1
@@ -14122,7 +14122,7 @@ innings:
               total: 1
         - 42.1:
             batsman: BKG Mendis
-            bowler: Mehedi Hasan Miraz
+            bowler: Mehidy Hasan Miraz
             non_striker: FDM Karunaratne
             runs:
               batsman: 0
@@ -14130,7 +14130,7 @@ innings:
               total: 0
         - 42.2:
             batsman: BKG Mendis
-            bowler: Mehedi Hasan Miraz
+            bowler: Mehidy Hasan Miraz
             non_striker: FDM Karunaratne
             runs:
               batsman: 0
@@ -14138,7 +14138,7 @@ innings:
               total: 0
         - 42.3:
             batsman: BKG Mendis
-            bowler: Mehedi Hasan Miraz
+            bowler: Mehidy Hasan Miraz
             non_striker: FDM Karunaratne
             runs:
               batsman: 1
@@ -14146,7 +14146,7 @@ innings:
               total: 1
         - 42.4:
             batsman: FDM Karunaratne
-            bowler: Mehedi Hasan Miraz
+            bowler: Mehidy Hasan Miraz
             non_striker: BKG Mendis
             runs:
               batsman: 0
@@ -14154,7 +14154,7 @@ innings:
               total: 0
         - 42.5:
             batsman: FDM Karunaratne
-            bowler: Mehedi Hasan Miraz
+            bowler: Mehidy Hasan Miraz
             non_striker: BKG Mendis
             runs:
               batsman: 1
@@ -14162,7 +14162,7 @@ innings:
               total: 1
         - 42.6:
             batsman: BKG Mendis
-            bowler: Mehedi Hasan Miraz
+            bowler: Mehidy Hasan Miraz
             non_striker: FDM Karunaratne
             runs:
               batsman: 0
@@ -15105,7 +15105,7 @@ innings:
               total: 0
         - 62.1:
             batsman: FDM Karunaratne
-            bowler: Mehedi Hasan Miraz
+            bowler: Mehidy Hasan Miraz
             non_striker: MDK Perera
             runs:
               batsman: 0
@@ -15113,7 +15113,7 @@ innings:
               total: 0
         - 62.2:
             batsman: FDM Karunaratne
-            bowler: Mehedi Hasan Miraz
+            bowler: Mehidy Hasan Miraz
             non_striker: MDK Perera
             runs:
               batsman: 0
@@ -15121,7 +15121,7 @@ innings:
               total: 0
         - 62.3:
             batsman: FDM Karunaratne
-            bowler: Mehedi Hasan Miraz
+            bowler: Mehidy Hasan Miraz
             non_striker: MDK Perera
             runs:
               batsman: 0
@@ -15129,7 +15129,7 @@ innings:
               total: 0
         - 62.4:
             batsman: FDM Karunaratne
-            bowler: Mehedi Hasan Miraz
+            bowler: Mehidy Hasan Miraz
             non_striker: MDK Perera
             runs:
               batsman: 1
@@ -15137,7 +15137,7 @@ innings:
               total: 1
         - 62.5:
             batsman: MDK Perera
-            bowler: Mehedi Hasan Miraz
+            bowler: Mehidy Hasan Miraz
             non_striker: FDM Karunaratne
             runs:
               batsman: 0
@@ -15145,7 +15145,7 @@ innings:
               total: 0
         - 62.6:
             batsman: MDK Perera
-            bowler: Mehedi Hasan Miraz
+            bowler: Mehidy Hasan Miraz
             non_striker: FDM Karunaratne
             runs:
               batsman: 0
@@ -15201,7 +15201,7 @@ innings:
               total: 0
         - 64.1:
             batsman: MDK Perera
-            bowler: Mehedi Hasan Miraz
+            bowler: Mehidy Hasan Miraz
             non_striker: FDM Karunaratne
             runs:
               batsman: 0
@@ -15209,7 +15209,7 @@ innings:
               total: 0
         - 64.2:
             batsman: MDK Perera
-            bowler: Mehedi Hasan Miraz
+            bowler: Mehidy Hasan Miraz
             non_striker: FDM Karunaratne
             runs:
               batsman: 0
@@ -15217,7 +15217,7 @@ innings:
               total: 0
         - 64.3:
             batsman: MDK Perera
-            bowler: Mehedi Hasan Miraz
+            bowler: Mehidy Hasan Miraz
             non_striker: FDM Karunaratne
             runs:
               batsman: 0
@@ -15225,7 +15225,7 @@ innings:
               total: 0
         - 64.4:
             batsman: MDK Perera
-            bowler: Mehedi Hasan Miraz
+            bowler: Mehidy Hasan Miraz
             non_striker: FDM Karunaratne
             runs:
               batsman: 1
@@ -15233,7 +15233,7 @@ innings:
               total: 1
         - 64.5:
             batsman: FDM Karunaratne
-            bowler: Mehedi Hasan Miraz
+            bowler: Mehidy Hasan Miraz
             non_striker: MDK Perera
             runs:
               batsman: 0
@@ -15241,7 +15241,7 @@ innings:
               total: 0
         - 64.6:
             batsman: FDM Karunaratne
-            bowler: Mehedi Hasan Miraz
+            bowler: Mehidy Hasan Miraz
             non_striker: MDK Perera
             runs:
               batsman: 1
@@ -15681,7 +15681,7 @@ innings:
               total: 0
         - 74.1:
             batsman: FDM Karunaratne
-            bowler: Mehedi Hasan Miraz
+            bowler: Mehidy Hasan Miraz
             non_striker: MDK Perera
             runs:
               batsman: 1
@@ -15689,7 +15689,7 @@ innings:
               total: 1
         - 74.2:
             batsman: MDK Perera
-            bowler: Mehedi Hasan Miraz
+            bowler: Mehidy Hasan Miraz
             non_striker: FDM Karunaratne
             runs:
               batsman: 0
@@ -15697,7 +15697,7 @@ innings:
               total: 0
         - 74.3:
             batsman: MDK Perera
-            bowler: Mehedi Hasan Miraz
+            bowler: Mehidy Hasan Miraz
             non_striker: FDM Karunaratne
             runs:
               batsman: 0
@@ -15705,7 +15705,7 @@ innings:
               total: 0
         - 74.4:
             batsman: MDK Perera
-            bowler: Mehedi Hasan Miraz
+            bowler: Mehidy Hasan Miraz
             non_striker: FDM Karunaratne
             runs:
               batsman: 0
@@ -15713,7 +15713,7 @@ innings:
               total: 0
         - 74.5:
             batsman: MDK Perera
-            bowler: Mehedi Hasan Miraz
+            bowler: Mehidy Hasan Miraz
             non_striker: FDM Karunaratne
             runs:
               batsman: 0
@@ -15721,7 +15721,7 @@ innings:
               total: 0
         - 74.6:
             batsman: MDK Perera
-            bowler: Mehedi Hasan Miraz
+            bowler: Mehidy Hasan Miraz
             non_striker: FDM Karunaratne
             runs:
               batsman: 0
@@ -15777,7 +15777,7 @@ innings:
               total: 0
         - 76.1:
             batsman: FDM Karunaratne
-            bowler: Mehedi Hasan Miraz
+            bowler: Mehidy Hasan Miraz
             non_striker: MDK Perera
             runs:
               batsman: 0
@@ -15785,7 +15785,7 @@ innings:
               total: 0
         - 76.2:
             batsman: FDM Karunaratne
-            bowler: Mehedi Hasan Miraz
+            bowler: Mehidy Hasan Miraz
             non_striker: MDK Perera
             runs:
               batsman: 1
@@ -15793,7 +15793,7 @@ innings:
               total: 1
         - 76.3:
             batsman: MDK Perera
-            bowler: Mehedi Hasan Miraz
+            bowler: Mehidy Hasan Miraz
             non_striker: FDM Karunaratne
             runs:
               batsman: 0
@@ -15801,7 +15801,7 @@ innings:
               total: 0
         - 76.4:
             batsman: MDK Perera
-            bowler: Mehedi Hasan Miraz
+            bowler: Mehidy Hasan Miraz
             non_striker: FDM Karunaratne
             runs:
               batsman: 0
@@ -15809,7 +15809,7 @@ innings:
               total: 0
         - 76.5:
             batsman: MDK Perera
-            bowler: Mehedi Hasan Miraz
+            bowler: Mehidy Hasan Miraz
             non_striker: FDM Karunaratne
             runs:
               batsman: 0
@@ -15817,7 +15817,7 @@ innings:
               total: 0
         - 76.6:
             batsman: MDK Perera
-            bowler: Mehedi Hasan Miraz
+            bowler: Mehidy Hasan Miraz
             non_striker: FDM Karunaratne
             runs:
               batsman: 0
@@ -15873,7 +15873,7 @@ innings:
               total: 0
         - 78.1:
             batsman: FDM Karunaratne
-            bowler: Mehedi Hasan Miraz
+            bowler: Mehidy Hasan Miraz
             non_striker: MDK Perera
             runs:
               batsman: 0
@@ -15881,7 +15881,7 @@ innings:
               total: 0
         - 78.2:
             batsman: FDM Karunaratne
-            bowler: Mehedi Hasan Miraz
+            bowler: Mehidy Hasan Miraz
             non_striker: MDK Perera
             runs:
               batsman: 1
@@ -15889,7 +15889,7 @@ innings:
               total: 1
         - 78.3:
             batsman: MDK Perera
-            bowler: Mehedi Hasan Miraz
+            bowler: Mehidy Hasan Miraz
             non_striker: FDM Karunaratne
             runs:
               batsman: 0
@@ -15897,7 +15897,7 @@ innings:
               total: 0
         - 78.4:
             batsman: MDK Perera
-            bowler: Mehedi Hasan Miraz
+            bowler: Mehidy Hasan Miraz
             non_striker: FDM Karunaratne
             runs:
               batsman: 0
@@ -15905,7 +15905,7 @@ innings:
               total: 0
         - 78.5:
             batsman: MDK Perera
-            bowler: Mehedi Hasan Miraz
+            bowler: Mehidy Hasan Miraz
             non_striker: FDM Karunaratne
             runs:
               batsman: 0
@@ -15913,7 +15913,7 @@ innings:
               total: 0
         - 78.6:
             batsman: MDK Perera
-            bowler: Mehedi Hasan Miraz
+            bowler: Mehidy Hasan Miraz
             non_striker: FDM Karunaratne
             runs:
               batsman: 0
@@ -16759,7 +16759,7 @@ innings:
               total: 1
         - 96.1:
             batsman: MDK Perera
-            bowler: Mehedi Hasan Miraz
+            bowler: Mehidy Hasan Miraz
             non_striker: RAS Lakmal
             runs:
               batsman: 0
@@ -16767,7 +16767,7 @@ innings:
               total: 0
         - 96.2:
             batsman: MDK Perera
-            bowler: Mehedi Hasan Miraz
+            bowler: Mehidy Hasan Miraz
             non_striker: RAS Lakmal
             runs:
               batsman: 0
@@ -16775,7 +16775,7 @@ innings:
               total: 0
         - 96.3:
             batsman: MDK Perera
-            bowler: Mehedi Hasan Miraz
+            bowler: Mehidy Hasan Miraz
             non_striker: RAS Lakmal
             runs:
               batsman: 0
@@ -16783,7 +16783,7 @@ innings:
               total: 0
         - 96.4:
             batsman: MDK Perera
-            bowler: Mehedi Hasan Miraz
+            bowler: Mehidy Hasan Miraz
             non_striker: RAS Lakmal
             runs:
               batsman: 4
@@ -16791,7 +16791,7 @@ innings:
               total: 4
         - 96.5:
             batsman: MDK Perera
-            bowler: Mehedi Hasan Miraz
+            bowler: Mehidy Hasan Miraz
             non_striker: RAS Lakmal
             runs:
               batsman: 4
@@ -16799,7 +16799,7 @@ innings:
               total: 4
         - 96.6:
             batsman: MDK Perera
-            bowler: Mehedi Hasan Miraz
+            bowler: Mehidy Hasan Miraz
             non_striker: RAS Lakmal
             runs:
               batsman: 0
@@ -17433,7 +17433,7 @@ innings:
               total: 0
         - 110.1:
             batsman: RAS Lakmal
-            bowler: Mehedi Hasan Miraz
+            bowler: Mehidy Hasan Miraz
             non_striker: MDK Perera
             runs:
               batsman: 1
@@ -17441,7 +17441,7 @@ innings:
               total: 1
         - 110.2:
             batsman: MDK Perera
-            bowler: Mehedi Hasan Miraz
+            bowler: Mehidy Hasan Miraz
             non_striker: RAS Lakmal
             runs:
               batsman: 0
@@ -17449,7 +17449,7 @@ innings:
               total: 0
         - 110.3:
             batsman: MDK Perera
-            bowler: Mehedi Hasan Miraz
+            bowler: Mehidy Hasan Miraz
             non_striker: RAS Lakmal
             runs:
               batsman: 0
@@ -17457,7 +17457,7 @@ innings:
               total: 0
         - 110.4:
             batsman: MDK Perera
-            bowler: Mehedi Hasan Miraz
+            bowler: Mehidy Hasan Miraz
             non_striker: RAS Lakmal
             runs:
               batsman: 0
@@ -17465,7 +17465,7 @@ innings:
               total: 0
         - 110.5:
             batsman: MDK Perera
-            bowler: Mehedi Hasan Miraz
+            bowler: Mehidy Hasan Miraz
             non_striker: RAS Lakmal
             runs:
               batsman: 0
@@ -17473,7 +17473,7 @@ innings:
               total: 0
         - 110.6:
             batsman: MDK Perera
-            bowler: Mehedi Hasan Miraz
+            bowler: Mehidy Hasan Miraz
             non_striker: RAS Lakmal
             runs:
               batsman: 1
@@ -17529,7 +17529,7 @@ innings:
               total: 0
         - 112.1:
             batsman: RAS Lakmal
-            bowler: Mehedi Hasan Miraz
+            bowler: Mehidy Hasan Miraz
             non_striker: MDK Perera
             runs:
               batsman: 1
@@ -17537,7 +17537,7 @@ innings:
               total: 1
         - 112.2:
             batsman: MDK Perera
-            bowler: Mehedi Hasan Miraz
+            bowler: Mehidy Hasan Miraz
             non_striker: RAS Lakmal
             runs:
               batsman: 0
@@ -17545,7 +17545,7 @@ innings:
               total: 0
         - 112.3:
             batsman: MDK Perera
-            bowler: Mehedi Hasan Miraz
+            bowler: Mehidy Hasan Miraz
             non_striker: RAS Lakmal
             runs:
               batsman: 0
@@ -17553,7 +17553,7 @@ innings:
               total: 0
         - 112.4:
             batsman: MDK Perera
-            bowler: Mehedi Hasan Miraz
+            bowler: Mehidy Hasan Miraz
             non_striker: RAS Lakmal
             runs:
               batsman: 0
@@ -17562,12 +17562,12 @@ innings:
             wicket:
               fielders:
                 - Subashis Roy
-                - Mehedi Hasan Miraz
+                - Mehidy Hasan Miraz
               kind: run out
               player_out: MDK Perera
         - 112.5:
             batsman: RAS Lakmal
-            bowler: Mehedi Hasan Miraz
+            bowler: Mehidy Hasan Miraz
             non_striker: PADLR Sandakan
             runs:
               batsman: 1
@@ -17575,7 +17575,7 @@ innings:
               total: 1
         - 112.6:
             batsman: PADLR Sandakan
-            bowler: Mehedi Hasan Miraz
+            bowler: Mehidy Hasan Miraz
             non_striker: RAS Lakmal
             runs:
               batsman: 0
@@ -20398,7 +20398,7 @@ innings:
               kind: caught
               player_out: Mosaddek Hossain
         - 57.3:
-            batsman: Mehedi Hasan Miraz
+            batsman: Mehidy Hasan Miraz
             bowler: HMRKB Herath
             non_striker: Mushfiqur Rahim
             runs:
@@ -20406,7 +20406,7 @@ innings:
               extras: 0
               total: 0
         - 57.4:
-            batsman: Mehedi Hasan Miraz
+            batsman: Mehidy Hasan Miraz
             bowler: HMRKB Herath
             non_striker: Mushfiqur Rahim
             runs:
@@ -20414,7 +20414,7 @@ innings:
               extras: 0
               total: 0
         - 57.5:
-            batsman: Mehedi Hasan Miraz
+            batsman: Mehidy Hasan Miraz
             bowler: HMRKB Herath
             non_striker: Mushfiqur Rahim
             runs:

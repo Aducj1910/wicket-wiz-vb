@@ -70,9 +70,10 @@ def process(matchId, checkAgainstPlayersList):
                 html_request = requests.get(indPlayer_link).text
                 soup = BeautifulSoup(html_request, 'lxml')
                 playerSearchInit = soup.findAll('h3', class_='name link-cta')
-                print(indPlayer)
 
                 index_ = 0
+                print(indPlayer)
+                print(indPlayer_link)
                 while True:
                     playerSearch = playerSearchInit[index_]
                     playerSearch = playerSearch.find('a')
@@ -136,7 +137,7 @@ def process(matchId, checkAgainstPlayersList):
         #     pass  
         else:
             nameMatch = playerInitPattern.match(name)
-            name_link = f"https://search.espncricinfo.com/ci/content/site/search.html?search=+{nameMatch.group(1)}%20+{nameMatch.group(1)};type=player"
+            name_link = f"https://search.espncricinfo.com/ci/content/site/search.html?search=+{nameMatch.group(1)}%20+{nameMatch.group(2)};type=player"
             playerProcessing(name, name_link)
 
     with open(f'data/tests/{matchId}.yaml', "r") as _file: 
@@ -222,16 +223,14 @@ def process(matchId, checkAgainstPlayersList):
                         wickets = 1
                     if howOut == 'caught':
                         catcher = ball['wicket']['fielders'][0]
-                        print(catcher)
                         if " (sub)" in catcher:
                             catcher = -101 #ID For substitue
                         else:
                             prepLink(catcher)
                             catcher = infoadd.getPlayerID(catcher)['id']
-                        print(catcher)
                     if howOut == 'stumped':
                         stumper = ball['wicket']['fielders'][0]
-                        if " (sub)" in catcher:
+                        if " (sub)" in stumper:
                             stumper = -101 #ID For substitue
                         else:
                             prepLink(stumper)

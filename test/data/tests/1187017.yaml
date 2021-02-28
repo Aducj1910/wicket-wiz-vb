@@ -1224,13 +1224,13 @@ innings:
           batsman: 0
         replacements:
           match:
-          - in: Mehedi Hasan Miraz
+          - in: Mehidy Hasan Miraz
             out: Liton Das
             reason: concussion_substitute
             team: Bangladesh
-        batsman: Mehedi Hasan Miraz
+        batsman: Mehidy Hasan Miraz
     - 24.1:
-        non_striker: Mehedi Hasan Miraz
+        non_striker: Mehidy Hasan Miraz
         bowler: Mohammed Shami
         runs:
           extras: 0
@@ -1238,7 +1238,7 @@ innings:
           batsman: 0
         batsman: Nayeem Hasan
     - 24.2:
-        non_striker: Mehedi Hasan Miraz
+        non_striker: Mehidy Hasan Miraz
         bowler: Mohammed Shami
         runs:
           extras: 0
@@ -1246,7 +1246,7 @@ innings:
           batsman: 0
         batsman: Nayeem Hasan
     - 24.3:
-        non_striker: Mehedi Hasan Miraz
+        non_striker: Mehidy Hasan Miraz
         bowler: Mohammed Shami
         runs:
           extras: 0
@@ -1254,7 +1254,7 @@ innings:
           batsman: 0
         batsman: Nayeem Hasan
     - 24.4:
-        non_striker: Mehedi Hasan Miraz
+        non_striker: Mehidy Hasan Miraz
         bowler: Mohammed Shami
         runs:
           extras: 0
@@ -1262,7 +1262,7 @@ innings:
           batsman: 0
         batsman: Nayeem Hasan
     - 24.5:
-        non_striker: Mehedi Hasan Miraz
+        non_striker: Mehidy Hasan Miraz
         bowler: Mohammed Shami
         runs:
           extras: 0
@@ -1270,7 +1270,7 @@ innings:
           batsman: 0
         batsman: Nayeem Hasan
     - 24.6:
-        non_striker: Mehedi Hasan Miraz
+        non_striker: Mehidy Hasan Miraz
         bowler: Mohammed Shami
         runs:
           extras: 0
@@ -1284,7 +1284,7 @@ innings:
           extras: 0
           total: 4
           batsman: 4
-        batsman: Mehedi Hasan Miraz
+        batsman: Mehidy Hasan Miraz
     - 25.2:
         non_striker: Nayeem Hasan
         bowler: I Sharma
@@ -1292,7 +1292,7 @@ innings:
           extras: 0
           total: 0
           batsman: 0
-        batsman: Mehedi Hasan Miraz
+        batsman: Mehidy Hasan Miraz
     - 25.3:
         non_striker: Nayeem Hasan
         bowler: I Sharma
@@ -1300,7 +1300,7 @@ innings:
           extras: 0
           total: 0
           batsman: 0
-        batsman: Mehedi Hasan Miraz
+        batsman: Mehidy Hasan Miraz
     - 25.4:
         non_striker: Nayeem Hasan
         bowler: I Sharma
@@ -1308,7 +1308,7 @@ innings:
           extras: 0
           total: 0
           batsman: 0
-        batsman: Mehedi Hasan Miraz
+        batsman: Mehidy Hasan Miraz
     - 25.5:
         non_striker: Nayeem Hasan
         bowler: I Sharma
@@ -1316,7 +1316,7 @@ innings:
           extras: 0
           total: 4
           batsman: 4
-        batsman: Mehedi Hasan Miraz
+        batsman: Mehidy Hasan Miraz
     - 25.6:
         non_striker: Nayeem Hasan
         bowler: I Sharma
@@ -1324,9 +1324,9 @@ innings:
           extras: 0
           total: 0
           batsman: 0
-        batsman: Mehedi Hasan Miraz
+        batsman: Mehidy Hasan Miraz
     - 26.1:
-        non_striker: Mehedi Hasan Miraz
+        non_striker: Mehidy Hasan Miraz
         bowler: Mohammed Shami
         runs:
           extras: 0
@@ -1334,7 +1334,7 @@ innings:
           batsman: 0
         batsman: Nayeem Hasan
     - 26.2:
-        non_striker: Mehedi Hasan Miraz
+        non_striker: Mehidy Hasan Miraz
         bowler: Mohammed Shami
         runs:
           extras: 0
@@ -1342,7 +1342,7 @@ innings:
           batsman: 0
         batsman: Nayeem Hasan
     - 26.3:
-        non_striker: Mehedi Hasan Miraz
+        non_striker: Mehidy Hasan Miraz
         bowler: Mohammed Shami
         runs:
           extras: 0
@@ -1350,7 +1350,7 @@ innings:
           batsman: 4
         batsman: Nayeem Hasan
     - 26.4:
-        non_striker: Mehedi Hasan Miraz
+        non_striker: Mehidy Hasan Miraz
         bowler: Mohammed Shami
         runs:
           extras: 0
@@ -1358,7 +1358,7 @@ innings:
           batsman: 4
         batsman: Nayeem Hasan
     - 26.5:
-        non_striker: Mehedi Hasan Miraz
+        non_striker: Mehidy Hasan Miraz
         bowler: Mohammed Shami
         runs:
           extras: 0
@@ -1366,7 +1366,7 @@ innings:
           batsman: 0
         batsman: Nayeem Hasan
     - 26.6:
-        non_striker: Mehedi Hasan Miraz
+        non_striker: Mehidy Hasan Miraz
         bowler: Mohammed Shami
         runs:
           extras: 0
@@ -1380,7 +1380,7 @@ innings:
           extras: 0
           total: 0
           batsman: 0
-        batsman: Mehedi Hasan Miraz
+        batsman: Mehidy Hasan Miraz
     - 27.2:
         non_striker: Nayeem Hasan
         bowler: I Sharma
@@ -1388,7 +1388,7 @@ innings:
           extras: 0
           total: 0
           batsman: 0
-        batsman: Mehedi Hasan Miraz
+        batsman: Mehidy Hasan Miraz
     - 27.3:
         non_striker: Nayeem Hasan
         bowler: I Sharma
@@ -1396,7 +1396,7 @@ innings:
           extras: 0
           total: 0
           batsman: 0
-        batsman: Mehedi Hasan Miraz
+        batsman: Mehidy Hasan Miraz
     - 27.4:
         non_striker: Nayeem Hasan
         bowler: I Sharma
@@ -1404,7 +1404,7 @@ innings:
           extras: 0
           total: 0
           batsman: 0
-        batsman: Mehedi Hasan Miraz
+        batsman: Mehidy Hasan Miraz
     - 27.5:
         non_striker: Nayeem Hasan
         bowler: I Sharma
@@ -1412,7 +1412,7 @@ innings:
           extras: 0
           total: 0
           batsman: 0
-        batsman: Mehedi Hasan Miraz
+        batsman: Mehidy Hasan Miraz
     - 27.6:
         non_striker: Nayeem Hasan
         bowler: I Sharma
@@ -1420,9 +1420,9 @@ innings:
           extras: 0
           total: 0
           batsman: 0
-        batsman: Mehedi Hasan Miraz
+        batsman: Mehidy Hasan Miraz
         wicket:
-          player_out: Mehedi Hasan Miraz
+          player_out: Mehidy Hasan Miraz
           fielders:
           - CA Pujara
           kind: caught
@@ -1788,7 +1788,7 @@ innings:
         wicket:
           player_out: MA Agarwal
           fielders:
-          - Mehedi Hasan Miraz
+          - Mehidy Hasan Miraz
           kind: caught
     - 4.5:
         non_striker: RG Sharma
@@ -6880,7 +6880,7 @@ innings:
           player_out: Mahmudullah
           kind: retired hurt
     - 18.4:
-        non_striker: Mehedi Hasan Miraz
+        non_striker: Mehidy Hasan Miraz
         bowler: UT Yadav
         runs:
           extras: 0
@@ -6888,7 +6888,7 @@ innings:
           batsman: 0
         batsman: Mushfiqur Rahim
     - 18.5:
-        non_striker: Mehedi Hasan Miraz
+        non_striker: Mehidy Hasan Miraz
         bowler: UT Yadav
         runs:
           extras: 0
@@ -6896,7 +6896,7 @@ innings:
           batsman: 0
         batsman: Mushfiqur Rahim
     - 18.6:
-        non_striker: Mehedi Hasan Miraz
+        non_striker: Mehidy Hasan Miraz
         bowler: UT Yadav
         runs:
           extras: 0
@@ -6910,7 +6910,7 @@ innings:
           extras: 0
           total: 0
           batsman: 0
-        batsman: Mehedi Hasan Miraz
+        batsman: Mehidy Hasan Miraz
     - 19.2:
         non_striker: Mushfiqur Rahim
         bowler: Mohammed Shami
@@ -6918,7 +6918,7 @@ innings:
           extras: 0
           total: 0
           batsman: 0
-        batsman: Mehedi Hasan Miraz
+        batsman: Mehidy Hasan Miraz
     - 19.3:
         non_striker: Mushfiqur Rahim
         bowler: Mohammed Shami
@@ -6926,7 +6926,7 @@ innings:
           extras: 0
           total: 4
           batsman: 4
-        batsman: Mehedi Hasan Miraz
+        batsman: Mehidy Hasan Miraz
     - 19.4:
         non_striker: Mushfiqur Rahim
         bowler: Mohammed Shami
@@ -6934,7 +6934,7 @@ innings:
           extras: 0
           total: 0
           batsman: 0
-        batsman: Mehedi Hasan Miraz
+        batsman: Mehidy Hasan Miraz
     - 19.5:
         non_striker: Mushfiqur Rahim
         bowler: Mohammed Shami
@@ -6942,7 +6942,7 @@ innings:
           extras: 0
           total: 0
           batsman: 0
-        batsman: Mehedi Hasan Miraz
+        batsman: Mehidy Hasan Miraz
     - 19.6:
         non_striker: Mushfiqur Rahim
         bowler: Mohammed Shami
@@ -6952,9 +6952,9 @@ innings:
           batsman: 0
         extras:
           byes: 4
-        batsman: Mehedi Hasan Miraz
+        batsman: Mehidy Hasan Miraz
     - 20.1:
-        non_striker: Mehedi Hasan Miraz
+        non_striker: Mehidy Hasan Miraz
         bowler: UT Yadav
         runs:
           extras: 0
@@ -6962,7 +6962,7 @@ innings:
           batsman: 0
         batsman: Mushfiqur Rahim
     - 20.2:
-        non_striker: Mehedi Hasan Miraz
+        non_striker: Mehidy Hasan Miraz
         bowler: UT Yadav
         runs:
           extras: 0
@@ -6970,7 +6970,7 @@ innings:
           batsman: 4
         batsman: Mushfiqur Rahim
     - 20.3:
-        non_striker: Mehedi Hasan Miraz
+        non_striker: Mehidy Hasan Miraz
         bowler: UT Yadav
         runs:
           extras: 0
@@ -6978,7 +6978,7 @@ innings:
           batsman: 4
         batsman: Mushfiqur Rahim
     - 20.4:
-        non_striker: Mehedi Hasan Miraz
+        non_striker: Mehidy Hasan Miraz
         bowler: UT Yadav
         runs:
           extras: 0
@@ -6986,7 +6986,7 @@ innings:
           batsman: 0
         batsman: Mushfiqur Rahim
     - 20.5:
-        non_striker: Mehedi Hasan Miraz
+        non_striker: Mehidy Hasan Miraz
         bowler: UT Yadav
         runs:
           extras: 0
@@ -6994,7 +6994,7 @@ innings:
           batsman: 0
         batsman: Mushfiqur Rahim
     - 20.6:
-        non_striker: Mehedi Hasan Miraz
+        non_striker: Mehidy Hasan Miraz
         bowler: UT Yadav
         runs:
           extras: 0
@@ -7008,7 +7008,7 @@ innings:
           extras: 0
           total: 0
           batsman: 0
-        batsman: Mehedi Hasan Miraz
+        batsman: Mehidy Hasan Miraz
     - 21.2:
         non_striker: Mushfiqur Rahim
         bowler: Mohammed Shami
@@ -7016,7 +7016,7 @@ innings:
           extras: 0
           total: 0
           batsman: 0
-        batsman: Mehedi Hasan Miraz
+        batsman: Mehidy Hasan Miraz
     - 21.3:
         non_striker: Mushfiqur Rahim
         bowler: Mohammed Shami
@@ -7026,7 +7026,7 @@ innings:
           batsman: 0
         extras:
           wides: 5
-        batsman: Mehedi Hasan Miraz
+        batsman: Mehidy Hasan Miraz
     - 21.4:
         non_striker: Mushfiqur Rahim
         bowler: Mohammed Shami
@@ -7034,7 +7034,7 @@ innings:
           extras: 0
           total: 0
           batsman: 0
-        batsman: Mehedi Hasan Miraz
+        batsman: Mehidy Hasan Miraz
     - 21.5:
         non_striker: Mushfiqur Rahim
         bowler: Mohammed Shami
@@ -7042,7 +7042,7 @@ innings:
           extras: 0
           total: 0
           batsman: 0
-        batsman: Mehedi Hasan Miraz
+        batsman: Mehidy Hasan Miraz
     - 21.6:
         non_striker: Mushfiqur Rahim
         bowler: Mohammed Shami
@@ -7050,7 +7050,7 @@ innings:
           extras: 0
           total: 0
           batsman: 0
-        batsman: Mehedi Hasan Miraz
+        batsman: Mehidy Hasan Miraz
     - 21.7:
         non_striker: Mushfiqur Rahim
         bowler: Mohammed Shami
@@ -7058,9 +7058,9 @@ innings:
           extras: 0
           total: 0
           batsman: 0
-        batsman: Mehedi Hasan Miraz
+        batsman: Mehidy Hasan Miraz
     - 22.1:
-        non_striker: Mehedi Hasan Miraz
+        non_striker: Mehidy Hasan Miraz
         bowler: R Ashwin
         runs:
           extras: 0
@@ -7068,7 +7068,7 @@ innings:
           batsman: 0
         batsman: Mushfiqur Rahim
     - 22.2:
-        non_striker: Mehedi Hasan Miraz
+        non_striker: Mehidy Hasan Miraz
         bowler: R Ashwin
         runs:
           extras: 0
@@ -7076,7 +7076,7 @@ innings:
           batsman: 4
         batsman: Mushfiqur Rahim
     - 22.3:
-        non_striker: Mehedi Hasan Miraz
+        non_striker: Mehidy Hasan Miraz
         bowler: R Ashwin
         runs:
           extras: 0
@@ -7090,7 +7090,7 @@ innings:
           extras: 0
           total: 0
           batsman: 0
-        batsman: Mehedi Hasan Miraz
+        batsman: Mehidy Hasan Miraz
     - 22.5:
         non_striker: Mushfiqur Rahim
         bowler: R Ashwin
@@ -7098,9 +7098,9 @@ innings:
           extras: 0
           total: 1
           batsman: 1
-        batsman: Mehedi Hasan Miraz
+        batsman: Mehidy Hasan Miraz
     - 22.6:
-        non_striker: Mehedi Hasan Miraz
+        non_striker: Mehidy Hasan Miraz
         bowler: R Ashwin
         runs:
           extras: 0
@@ -7108,7 +7108,7 @@ innings:
           batsman: 1
         batsman: Mushfiqur Rahim
     - 23.1:
-        non_striker: Mehedi Hasan Miraz
+        non_striker: Mehidy Hasan Miraz
         bowler: Mohammed Shami
         runs:
           extras: 0
@@ -7116,7 +7116,7 @@ innings:
           batsman: 4
         batsman: Mushfiqur Rahim
     - 23.2:
-        non_striker: Mehedi Hasan Miraz
+        non_striker: Mehidy Hasan Miraz
         bowler: Mohammed Shami
         runs:
           extras: 0
@@ -7124,7 +7124,7 @@ innings:
           batsman: 0
         batsman: Mushfiqur Rahim
     - 23.3:
-        non_striker: Mehedi Hasan Miraz
+        non_striker: Mehidy Hasan Miraz
         bowler: Mohammed Shami
         runs:
           extras: 0
@@ -7138,7 +7138,7 @@ innings:
           extras: 0
           total: 0
           batsman: 0
-        batsman: Mehedi Hasan Miraz
+        batsman: Mehidy Hasan Miraz
     - 23.5:
         non_striker: Mushfiqur Rahim
         bowler: Mohammed Shami
@@ -7146,7 +7146,7 @@ innings:
           extras: 0
           total: 6
           batsman: 6
-        batsman: Mehedi Hasan Miraz
+        batsman: Mehidy Hasan Miraz
     - 23.6:
         non_striker: Mushfiqur Rahim
         bowler: Mohammed Shami
@@ -7154,9 +7154,9 @@ innings:
           extras: 0
           total: 0
           batsman: 0
-        batsman: Mehedi Hasan Miraz
+        batsman: Mehidy Hasan Miraz
     - 24.1:
-        non_striker: Mehedi Hasan Miraz
+        non_striker: Mehidy Hasan Miraz
         bowler: R Ashwin
         runs:
           extras: 0
@@ -7164,7 +7164,7 @@ innings:
           batsman: 0
         batsman: Mushfiqur Rahim
     - 24.2:
-        non_striker: Mehedi Hasan Miraz
+        non_striker: Mehidy Hasan Miraz
         bowler: R Ashwin
         runs:
           extras: 0
@@ -7172,7 +7172,7 @@ innings:
           batsman: 0
         batsman: Mushfiqur Rahim
     - 24.3:
-        non_striker: Mehedi Hasan Miraz
+        non_striker: Mehidy Hasan Miraz
         bowler: R Ashwin
         runs:
           extras: 0
@@ -7180,7 +7180,7 @@ innings:
           batsman: 2
         batsman: Mushfiqur Rahim
     - 24.4:
-        non_striker: Mehedi Hasan Miraz
+        non_striker: Mehidy Hasan Miraz
         bowler: R Ashwin
         runs:
           extras: 0
@@ -7194,7 +7194,7 @@ innings:
           extras: 0
           total: 0
           batsman: 0
-        batsman: Mehedi Hasan Miraz
+        batsman: Mehidy Hasan Miraz
     - 24.6:
         non_striker: Mushfiqur Rahim
         bowler: R Ashwin
@@ -7202,9 +7202,9 @@ innings:
           extras: 0
           total: 0
           batsman: 0
-        batsman: Mehedi Hasan Miraz
+        batsman: Mehidy Hasan Miraz
     - 25.1:
-        non_striker: Mehedi Hasan Miraz
+        non_striker: Mehidy Hasan Miraz
         bowler: I Sharma
         runs:
           extras: 0
@@ -7212,7 +7212,7 @@ innings:
           batsman: 0
         batsman: Mushfiqur Rahim
     - 25.2:
-        non_striker: Mehedi Hasan Miraz
+        non_striker: Mehidy Hasan Miraz
         bowler: I Sharma
         runs:
           extras: 0
@@ -7220,7 +7220,7 @@ innings:
           batsman: 4
         batsman: Mushfiqur Rahim
     - 25.3:
-        non_striker: Mehedi Hasan Miraz
+        non_striker: Mehidy Hasan Miraz
         bowler: I Sharma
         runs:
           extras: 0
@@ -7234,7 +7234,7 @@ innings:
           extras: 0
           total: 0
           batsman: 0
-        batsman: Mehedi Hasan Miraz
+        batsman: Mehidy Hasan Miraz
     - 25.5:
         non_striker: Mushfiqur Rahim
         bowler: I Sharma
@@ -7242,7 +7242,7 @@ innings:
           extras: 0
           total: 4
           batsman: 4
-        batsman: Mehedi Hasan Miraz
+        batsman: Mehidy Hasan Miraz
     - 25.6:
         non_striker: Mushfiqur Rahim
         bowler: I Sharma
@@ -7250,9 +7250,9 @@ innings:
           extras: 0
           total: 0
           batsman: 0
-        batsman: Mehedi Hasan Miraz
+        batsman: Mehidy Hasan Miraz
         wicket:
-          player_out: Mehedi Hasan Miraz
+          player_out: Mehidy Hasan Miraz
           fielders:
           - V Kohli
           kind: caught
