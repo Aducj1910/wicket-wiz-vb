@@ -72,8 +72,6 @@ def process(matchId, checkAgainstPlayersList):
                 playerSearchInit = soup.findAll('h3', class_='name link-cta')
 
                 index_ = 0
-                print(indPlayer)
-                print(indPlayer_link)
                 while True:
                     playerSearch = playerSearchInit[index_]
                     playerSearch = playerSearch.find('a')
@@ -137,7 +135,10 @@ def process(matchId, checkAgainstPlayersList):
         #     pass  
         else:
             nameMatch = playerInitPattern.match(name)
-            name_link = f"https://search.espncricinfo.com/ci/content/site/search.html?search=+{nameMatch.group(1)}%20+{nameMatch.group(2)};type=player"
+            nameSplit = name.split(" ")
+            if len(nameSplit) > 2:
+                nameSplit = [nameSplit[-2], nameSplit[-1]]
+            name_link = f"https://search.espncricinfo.com/ci/content/site/search.html?search=+{nameSplit[0]}%20+{nameSplit[1]};type=player"
             playerProcessing(name, name_link)
 
     with open(f'data/tests/{matchId}.yaml', "r") as _file: 
