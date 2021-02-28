@@ -13,7 +13,8 @@ def getMatch(matchID):
     soup = BeautifulSoup(res, 'lxml')
     resultLinks = soup.findAll('a', href=True)
     for r in resultLinks:
-        link_ = r.get('href')
+        link_ = r.get('href') #starts but doesn't finish
+        print(link_)
         if matchID in link_ and '/full-scorecard' in link_:
             link_ = link_.replace("/url?q=", "")
             link_ = matchLinkPattern.match(link_)

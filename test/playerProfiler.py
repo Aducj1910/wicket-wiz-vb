@@ -172,7 +172,8 @@ def process(matchId, checkAgainstPlayersList):
         if not inDB:
             driver.get(link)
             playerTab = driver.find_element_by_id("player")
-            playerTab.click()
+            print(link)
+            playerTab.click() #click using innings method in original one
 
             links = driver.find_elements_by_xpath("//a[@href]")
             for link in links:
@@ -378,6 +379,8 @@ def process(matchId, checkAgainstPlayersList):
     return {'batter': masterBatters, 'bowler': masterBowlers, 'nonstriker': masterNonstrikers, 'inningsNumber': numberInn, 'teams' : masterTeams, 'matchups': masterMatchups}
 
 
+
+# driver.quit()
                 
 
                 
