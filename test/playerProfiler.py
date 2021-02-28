@@ -1,9 +1,33 @@
 import yaml
 from bs4 import BeautifulSoup
 import requests
+from selenium import webdriver
+from selenium.webdriver.common.action_chains import ActionChains
+# from selenium.webdriver.support import select
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
+from selenium.webdriver.common.by import By
 import re
 import infoadd
 headers={"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36"}
+
+user_agent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150 Safari/537.36"
+options = webdriver.ChromeOptions()
+options.headless = True
+# options.add_argument(f'user-agent={user_agent}')
+# options.add_argument("--window-size=1024,610")
+# options.add_argument('--ignore-certificate-errors')
+# options.add_argument('--allow-running-insecure-content')
+options.add_argument("--disable-extensions")
+options.add_argument('log-level=3')
+# options.add_argument("--proxy-server='direct://'")
+# options.add_argument("--proxy-bypass-list=*")
+# options.add_argument("--start-maximized")
+options.add_argument('--disable-gpu')
+# options.add_argument('--disable-dev-shm-usage')
+# options.add_argument('--no-sandbox')
+driver = webdriver.Chrome(executable_path="../chromedriver.exe", options=options)
+#getting the url
 
 playerIDPattern = re.compile(r"(\/.+?(?=\/)){3}\/(.+?(?=\.html))") #group2 - playerID
 playerBirthPattern = re.compile(r"(.+?(?=\s))(.+?(?=,)),\s(.+?(?=,))") #group1 - month, #group2 - date, #group3 - year
@@ -11,6 +35,7 @@ noMiddlePattern = re.compile(r"(.+?(?=,)),(?:\s|)(.+)") #group1 - first, #group2
 playerInitPattern = re.compile(r"(.+?(?=\s))\s(.+)") #group1 - first, #group2 - last
 googlePattern = re.compile(r".+?(?=espncricinfo\.com)espncricinfo\.com\/.+?(?=player)player\/(.+?(?=\.html))\.html") #group1 - id
 fullNamePattern = re.compile(r"([A-Z][a-z]+)\s(.+)")
+enginePlayerPattern = re.compile(r".+?(?=\d)(\d+)\.html") #group1 - id
 
 localPlayerList = {}
 
@@ -23,6 +48,7 @@ masterMatchups = {}
 
 def process(matchId, checkAgainstPlayersList):
     global data
+    global driver
     print(str(matchId) + " halfway")
 
 
@@ -65,7 +91,6 @@ def process(matchId, checkAgainstPlayersList):
                             localPlayerList[indPlayer] = {'id': playerID, 'fullName': playerName}
                             break                
                 
-
             else:
                 html_request = requests.get(indPlayer_link).text
                 soup = BeautifulSoup(html_request, 'lxml')
@@ -116,7 +141,6 @@ def process(matchId, checkAgainstPlayersList):
                     link_ = r.get('href')
                     linkMatch = googlePattern.match(link_)
                     if linkMatch != None:
-                        print(link_)
                         link_ = linkMatch.group(0)
                         playerID = linkMatch.group(1)
                         # print(playerID)
@@ -140,6 +164,51 @@ def process(matchId, checkAgainstPlayersList):
                 nameSplit = [nameSplit[-2], nameSplit[-1]]
             name_link = f"https://search.espncricinfo.com/ci/content/site/search.html?search=+{nameSplit[0]}%20+{nameSplit[1]};type=player"
             playerProcessing(name, name_link)
+
+    def selProcessing(name, link):
+        global localPlayerList
+        global localPlayerList
+        inDB = infoadd.checkPlayerJSON(name)
+        if not inDB:
+            driver.get(link)
+            playerTab = driver.find_element_by_id("player")
+            playerTab.click()
+
+            links = driver.find_elements_by_xpath("//a[@href]")
+            for link in links:
+                match = False
+                linkPlayer = None
+                id_ = None
+                linkTxt = link.get_attribute("href")
+                if "https://stats.espncricinfo.com/ci/engine/player" in linkTxt:
+                    if enginePlayerPattern.match(linkTxt) != None:
+                        id_ = enginePlayerPattern.match(linkTxt).group(1)
+                        for kk in checkAgainstPlayersList:
+                            if kk['id'] == id_:
+                                match = True
+                                linkPlayer = enginePlayerPattern.match(linkTxt).group(0)
+                
+                if match == True:
+                    html_request = requests.get(linkPlayer).text
+                    soup = BeautifulSoup(html_request, 'lxml')
+                    playerName = soup.find('h1')
+                    playerName = playerName.text
+                    country = soup.find("h3", class_="PlayersSearchLink").text
+                    country = country.lower()
+                    infoadd.addPlayerJSON(id_, playerName, name, country)
+                    localPlayerList[name] = {'id': id_, 'fullName': playerName}
+                    break
+
+
+        else:
+            returnInfo = infoadd.getPlayerID(name)
+            localPlayerList[name] = {'id': returnInfo['id'], 'fullName': returnInfo['fullName']}
+    
+    def selPrep(name):
+        nameSpl = name.split(" ")
+        nameJoined = "+".join(nameSpl)
+        link = f"https://stats.espncricinfo.com/ci/engine/stats/analysis.html?search={nameJoined}"
+        selProcessing(name, link)
 
     with open(f'data/tests/{matchId}.yaml', "r") as _file: 
         data = yaml.load(_file)
@@ -180,13 +249,13 @@ def process(matchId, checkAgainstPlayersList):
                 over = next(iter(d))
 
                 non_striker = ball['non_striker']
-                prepLink(non_striker)
+                selPrep(non_striker)
 
                 bowler = ball['bowler']
-                prepLink(bowler)
+                selPrep(bowler)
 
                 batsman = ball['batsman']
-                prepLink(batsman)
+                selPrep(batsman)
 
                 batsman = localPlayerList[batsman]['id']
                 bowler = localPlayerList[bowler]['id']
@@ -227,14 +296,14 @@ def process(matchId, checkAgainstPlayersList):
                         if " (sub)" in catcher:
                             catcher = -101 #ID For substitue
                         else:
-                            prepLink(catcher)
+                            selPrep(catcher)
                             catcher = infoadd.getPlayerID(catcher)['id']
                     if howOut == 'stumped':
                         stumper = ball['wicket']['fielders'][0]
                         if " (sub)" in stumper:
                             stumper = -101 #ID For substitue
                         else:
-                            prepLink(stumper)
+                            selPrep(stumper)
                             stumper = infoadd.getPlayerID(stumper)['id']
                     if howOut == 'caught and bowled':
                         catcher = bowler
@@ -304,6 +373,7 @@ def process(matchId, checkAgainstPlayersList):
             masterNonstrikers[inning] = trackerListNonstriker
             masterMatchups[inning] = trackerMatchups
     
+    print(matchId, "nearly there")
     # print(masterTeams)
     return {'batter': masterBatters, 'bowler': masterBowlers, 'nonstriker': masterNonstrikers, 'inningsNumber': numberInn, 'teams' : masterTeams, 'matchups': masterMatchups}
 

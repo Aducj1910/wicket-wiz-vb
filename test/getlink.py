@@ -45,7 +45,7 @@ def getMatchList():
                 print(filenameToPass + " starting") #start indicator
                 getMatch(filenameToPass)
 
-tes()
+getMatchList()
 
 # indPlayer_link = f"https://search.espncricinfo.com/ci/content/site/search.html?search={nonSplit[-1]}"
 # html_request = requests.get(indPlayer_link).text
