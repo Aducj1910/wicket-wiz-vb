@@ -25,6 +25,7 @@ def process(matchId, checkAgainstPlayersList):
     global data
     print(str(matchId) + " halfway")
 
+
     def playerProcessing(indPlayer, indPlayer_link):
         global localPlayerList
         inDB = infoadd.checkPlayerJSON(indPlayer)
@@ -69,6 +70,7 @@ def process(matchId, checkAgainstPlayersList):
                 html_request = requests.get(indPlayer_link).text
                 soup = BeautifulSoup(html_request, 'lxml')
                 playerSearchInit = soup.findAll('h3', class_='name link-cta')
+                print(indPlayer)
 
                 index_ = 0
                 while True:
@@ -220,12 +222,20 @@ def process(matchId, checkAgainstPlayersList):
                         wickets = 1
                     if howOut == 'caught':
                         catcher = ball['wicket']['fielders'][0]
-                        prepLink(catcher)
-                        catcher = infoadd.getPlayerID(catcher)['id']
+                        print(catcher)
+                        if " (sub)" in catcher:
+                            catcher = -101 #ID For substitue
+                        else:
+                            prepLink(catcher)
+                            catcher = infoadd.getPlayerID(catcher)['id']
+                        print(catcher)
                     if howOut == 'stumped':
                         stumper = ball['wicket']['fielders'][0]
-                        prepLink(stumper)
-                        stumper = infoadd.getPlayerID(stumper)['id']
+                        if " (sub)" in catcher:
+                            stumper = -101 #ID For substitue
+                        else:
+                            prepLink(stumper)
+                            stumper = infoadd.getPlayerID(stumper)['id']
                     if howOut == 'caught and bowled':
                         catcher = bowler
                     
