@@ -9,25 +9,6 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.by import By
 import re
 import infoadd
-headers={"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36"}
-
-user_agent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150 Safari/537.36"
-options = webdriver.ChromeOptions()
-options.headless = True
-# options.add_argument(f'user-agent={user_agent}')
-# options.add_argument("--window-size=1024,610")
-# options.add_argument('--ignore-certificate-errors')
-# options.add_argument('--allow-running-insecure-content')
-options.add_argument("--disable-extensions")
-options.add_argument('log-level=3')
-# options.add_argument("--proxy-server='direct://'")
-# options.add_argument("--proxy-bypass-list=*")
-# options.add_argument("--start-maximized")
-options.add_argument('--disable-gpu')
-# options.add_argument('--disable-dev-shm-usage')
-# options.add_argument('--no-sandbox')
-driver = webdriver.Chrome(executable_path="../chromedriver.exe", options=options)
-#getting the url
 
 playerIDPattern = re.compile(r"(\/.+?(?=\/)){3}\/(.+?(?=\.html))") #group2 - playerID
 playerBirthPattern = re.compile(r"(.+?(?=\s))(.+?(?=,)),\s(.+?(?=,))") #group1 - month, #group2 - date, #group3 - year
@@ -50,6 +31,25 @@ def process(matchId, checkAgainstPlayersList):
     global data
     global driver
     print(str(matchId) + " halfway")
+
+    headers={"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36"}
+    user_agent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150 Safari/537.36"
+    options = webdriver.ChromeOptions()
+    options.headless = True
+    # options.add_argument(f'user-agent={user_agent}')
+    # options.add_argument("--window-size=1024,610")
+    # options.add_argument('--ignore-certificate-errors')
+    # options.add_argument('--allow-running-insecure-content')
+    options.add_argument("--disable-extensions")
+    options.add_argument('log-level=3')
+    # options.add_argument("--proxy-server='direct://'")
+    # options.add_argument("--proxy-bypass-list=*")
+    # options.add_argument("--start-maximized")
+    options.add_argument('--disable-gpu')
+    # options.add_argument('--disable-dev-shm-usage')
+    # options.add_argument('--no-sandbox')
+    driver = webdriver.Chrome(executable_path="../chromedriver.exe", options=options)
+    #getting the url
 
 
     def playerProcessing(indPlayer, indPlayer_link):
@@ -172,8 +172,13 @@ def process(matchId, checkAgainstPlayersList):
         if not inDB:
             driver.get(link)
             playerTab = driver.find_element_by_id("player")
-            print(link)
-            playerTab.click() #click using innings method in original one
+            # playerTab.click() #click using innings method in original one
+            driver.execute_script("arguments[0].click();", playerTab)
+            # loopInningsChangeButton.click()
+
+            # wait = WebDriverWait(driver, 1)
+
+            # links = wait.until(EC.visibility_of_all_elements_located((By. XPATH, '//a[@href]')))
 
             links = driver.find_elements_by_xpath("//a[@href]")
             for link in links:
@@ -376,11 +381,11 @@ def process(matchId, checkAgainstPlayersList):
     
     print(matchId, "nearly there")
     # print(masterTeams)
+    driver.quit()
     return {'batter': masterBatters, 'bowler': masterBowlers, 'nonstriker': masterNonstrikers, 'inningsNumber': numberInn, 'teams' : masterTeams, 'matchups': masterMatchups}
 
+    
 
-
-# driver.quit()
                 
 
                 

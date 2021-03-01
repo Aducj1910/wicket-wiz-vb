@@ -6,7 +6,8 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.by import By
 from time import sleep
-import accessDB, retrieveDB, accessJSON
+from bs4 import BeautifulSoup
+import accessDB, requests,retrieveDB, accessJSON
 import re, yaml, balls
 
 class MyBot:
@@ -137,6 +138,38 @@ class MyBot:
         matchInfo['series'] = {'seriesName': seriesElement.text, 'seriesLink': seriesElement.get_attribute('href')}
         matchInfo['teamA'] = teamList[0]
         matchInfo['teamB'] = teamList[1]
+
+        def getId(venueLink):
+            venueLinkSplit = venueLink.split('/')
+            venueLink = venueLinkSplit[-1]
+            venueLink = venueLink.replace(".html", "")
+            return venueLink
+
+        #Finding venue
+        venueToAdd = {}
+        venueElement = self.driver.find_element_by_xpath("//a[contains(@href, '/ci/content/ground/')]")
+        venueToAdd['name'] = venueElement.text
+        venueLink = venueElement.get_attribute('href')
+        venueToAdd['id'] = getId(venueLink)
+        venueInList = accessDB.checkVenue(venueToAdd['id'])
+        if not venueInList:
+            res = requests.get(venueLink).text
+            soup = BeautifulSoup(res, 'lxml')
+            venueLocation = soup.find("p", class_="loc").text
+            venArr = venueLocation.split(", ")
+            venueCountry = venArr[-1]
+            venueToAdd['country'] = venueCountry
+            accessDB.addVenue(venueToAdd)
+
+        #     self.driver.get(venueLink)
+        #     venueLocation = self.driver.find_element_by_class_name('loc')
+        #     venArr = venueLocation.text.split(", ")
+        #     venueCountry = venArr[-1]
+        #     venueToAdd['country'] = venueCountry
+        #     accessDB.addVenue(venueToAdd)
+
+        # self.driver.get(matchLink + "full-scorecard")
+        matchInfo['venueId'] = venueToAdd['id']
 
         caughtPattern = re.compile(r"(c\s)([^&]+?(?=b))(b\s)(.+)") #group2 - catcher #group4 - bowler
         lbwPattern = re.compile(r"(lbw b )(.+)") #group2 - bowler

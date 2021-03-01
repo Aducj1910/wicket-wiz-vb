@@ -66,7 +66,10 @@ def analyse(file, players, matchInfo):
         matchInfo['teamA']['info'] = ballByBallDict['teams'][teamA]
         matchInfo['teamB']['info'] = ballByBallDict['teams'][teamB]
 
+        matchInfo['outcome'] = data['info']['outcome']
+
         accessJSON.addMatch(matchInfo)
         accessJSON.addIndividual(players, matchInfo['matchID'])
         accessJSON.addMatchup(matchups, matchInfo['matchID'])
         print(str(matchInfo['matchID']) + " finished")
+        print(matchInfo)
