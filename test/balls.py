@@ -1,6 +1,6 @@
 from os import access
 from re import match
-import yaml,  playerProfiler, accessJSON, accessMongo
+import yaml,  playerProfiler2, accessJSON, accessMongo
 
 
 def analyse(file, players, matchInfo):
@@ -16,7 +16,7 @@ def analyse(file, players, matchInfo):
         for date in info['dates']:
             matchInfo['dates'].append(str(date))
 
-        ballByBallDict = playerProfiler.process(file, players)
+        ballByBallDict = playerProfiler2.process(file, players)
         matchups = {}
 
         for b in ballByBallDict['batter']:

@@ -1,14 +1,5 @@
-import yaml
+import yaml, requests, re, infoadd
 from bs4 import BeautifulSoup
-import requests
-from selenium import webdriver
-from selenium.webdriver.common.action_chains import ActionChains
-# from selenium.webdriver.support import select
-from selenium.webdriver.support.ui import WebDriverWait
-from selenium.webdriver.support import expected_conditions as EC
-from selenium.webdriver.common.by import By
-import re
-import infoadd
 
 playerIDPattern = re.compile(r"(\/.+?(?=\/)){3}\/(.+?(?=\.html))") #group2 - playerID
 playerBirthPattern = re.compile(r"(.+?(?=\s))(.+?(?=,)),\s(.+?(?=,))") #group1 - month, #group2 - date, #group3 - year
@@ -31,27 +22,9 @@ masterMatchups = {}
 
 def process(matchId, checkAgainstPlayersList):
     global data
-    global driver
     print(str(matchId) + " halfway")
 
     headers={"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36"}
-    user_agent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150 Safari/537.36"
-    options = webdriver.ChromeOptions()
-    options.headless = True
-    options.add_argument(f'user-agent={user_agent}')
-    # options.add_argument("--window-size=1024,610")
-    options.add_argument('--ignore-certificate-errors')
-    options.add_argument('--allow-running-insecure-content')
-    options.add_argument("--disable-extensions")
-    options.add_argument('log-level=3')
-    options.add_argument("--proxy-server='direct://'")
-    options.add_argument("--proxy-bypass-list=*")
-    # options.add_argument("--start-maximized")
-    options.add_argument('--disable-gpu')
-    options.add_argument('--disable-dev-shm-usage')
-    options.add_argument('--no-sandbox')
-    driver = webdriver.Chrome(executable_path="../chromedriver.exe", options=options)
-    #getting the url
 
 
     def playerProcessing(indPlayer, indPlayer_link):
@@ -172,23 +145,15 @@ def process(matchId, checkAgainstPlayersList):
         global localPlayerList
         inDB = infoadd.checkPlayerJSON(name)
         if not inDB:
-            driver.get(link)
-            playerTab = driver.find_element_by_id("player")
-            # playerTab.click() #click using innings method in original one
-            driver.execute_script("arguments[0].click();", playerTab)
-            # loopInningsChangeButton.click()
-
-            # wait = WebDriverWait(driver, 1)
-
-            # links = wait.until(EC.visibility_of_all_elements_located((By. XPATH, '//a[@href]')))
-
-            links = driver.find_elements_by_xpath("//a[@href]")
+            resp = requests.get(link).text
+            soup = BeautifulSoup(resp, 'lxml')
+            links = soup.findAll("a", href=True)
             for link in links:
                 match = False
                 linkPlayer = None
                 id_ = None
-                linkTxt = link.get_attribute("href")
-                if "https://stats.espncricinfo.com/ci/engine/player" in linkTxt:
+                linkTxt = link['href']
+                if "/ci/engine/player" in linkTxt:
                     if enginePlayerPattern.match(linkTxt) != None:
                         id_ = enginePlayerPattern.match(linkTxt).group(1)
                         for kk in checkAgainstPlayersList:
@@ -197,7 +162,7 @@ def process(matchId, checkAgainstPlayersList):
                                 linkPlayer = enginePlayerPattern.match(linkTxt).group(0)
                 
                 if match == True:
-                    html_request = requests.get(linkPlayer).text
+                    html_request = requests.get("http://stats.espncricinfo.com" + linkPlayer).text
                     soup = BeautifulSoup(html_request, 'lxml')
                     playerName = soup.find('h1')
                     playerName = playerName.text
@@ -394,7 +359,6 @@ def process(matchId, checkAgainstPlayersList):
             umpires[pl['id']] = pl['fullName']
 
     # print(masterTeams)
-    driver.quit()
     return {'batter': masterBatters, 'bowler': masterBowlers, 'nonstriker': masterNonstrikers, 'inningsNumber': numberInn, 'teams' : masterTeams, 'matchups': masterMatchups, 'umpires': umpires}
 
     
