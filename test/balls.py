@@ -29,6 +29,8 @@ def analyse(file, players, matchInfo):
                 else:
                     pass
 
+        print('batter')
+
         for b in ballByBallDict['nonstriker']:
             bInn = ballByBallDict['nonstriker'][b] #ADD ISCAPTAIN & ISWICKETKEEPER
             for p in players:
@@ -38,6 +40,8 @@ def analyse(file, players, matchInfo):
                     p[b]['nonstriker'] = bInn[p['id']]
                 else:
                     pass
+
+        print('ns')
 
         for b in ballByBallDict['bowler']:
             bInn = ballByBallDict['bowler'][b] #ADD ISCAPTAIN & ISWICKETKEEPER
@@ -69,7 +73,9 @@ def analyse(file, players, matchInfo):
         matchInfo['outcome'] = data['info']['outcome']
 
         accessJSON.addMatch(matchInfo)
+        print('matchInfo')
         accessJSON.addIndividual(players, matchInfo['matchID'])
+        print('players')
         accessJSON.addMatchup(matchups, matchInfo['matchID'])
-        print(str(matchInfo['matchID']) + " finished")
-        print(matchInfo)
+        matchNumber = accessJSON.addChecker()
+        print(str(matchInfo['matchID']) + " finished | Number: " + str(matchNumber))

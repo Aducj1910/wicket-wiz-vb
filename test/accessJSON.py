@@ -37,5 +37,19 @@ def addMatchup(matchUps, matchId):
     
     with open("matchups.json", "w") as jsonFile:
         json.dump(data, jsonFile)
+
+def addChecker():
+    with open("checker.json", "r") as jsonFile:
+        data = json.load(jsonFile)
+
+    data['matches'] += 1
+    k = data['matches']
+
+    with open("checker.json", "w") as jsonFile:
+        json.dump(data, jsonFile)
+
+    return k
+    
+
             
     
