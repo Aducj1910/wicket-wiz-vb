@@ -5,6 +5,9 @@ import requests, os, re, seltest2, time, json
 #FIND WINNERS OF EACH GAME AFTERWARDS FROM YAML
 #FIND HOME, NEUTRAL, AWAY BY CITY IN YAML
 from requests.api import head
+import pymongo, json
+from pymongo import MongoClient
+
 headers={"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36"}
 
 tId = '1022599' #SELENIUM TO REQUESTS SHIFT
@@ -82,19 +85,22 @@ def tes():
         #     seltest2.MyBot(link_, matchID)
 
 def getMatchList():
+    connection = MongoClient()
+    db = connection['wicket-wiz-db']
+    document = db['matchInfo']
     for filename in os.listdir('data/tests'):
         time.sleep(1)
         filenameToPass = filename.replace(".yaml", "")
-        with open("matchInfo.json", "r") as jsonFile:
-            data = json.load(jsonFile)
-            if filenameToPass in data:
-                print(filenameToPass + " passed")
-                pass
-            else:
-                print(filenameToPass + " starting") #start indicator
-                getMatch(filenameToPass)
 
-tes()
+        fetch = document.find_one({"_id": str(filenameToPass)})
+        if fetch != None:
+            print(filenameToPass + "passed")
+        else:
+            print(filenameToPass + " starting") #start indicator
+            getMatch(filenameToPass)
+
+
+getMatchList()
 
 # indPlayer_link = f"https://search.espncricinfo.com/ci/content/site/search.html?search={nonSplit[-1]}"
 # html_request = requests.get(indPlayer_link).text
