@@ -1,6 +1,6 @@
 from os import access
 from re import match
-import yaml,  playerProfiler, accessJSON
+import yaml,  playerProfiler, accessJSON, accessMongo
 
 
 def analyse(file, players, matchInfo):
@@ -29,7 +29,7 @@ def analyse(file, players, matchInfo):
                 else:
                     pass
 
-        print('batter')
+        # print('batter')
 
         for b in ballByBallDict['nonstriker']:
             bInn = ballByBallDict['nonstriker'][b] #ADD ISCAPTAIN & ISWICKETKEEPER
@@ -41,7 +41,7 @@ def analyse(file, players, matchInfo):
                 else:
                     pass
 
-        print('ns')
+        # print('ns')
 
         for b in ballByBallDict['bowler']:
             bInn = ballByBallDict['bowler'][b] #ADD ISCAPTAIN & ISWICKETKEEPER
@@ -70,12 +70,14 @@ def analyse(file, players, matchInfo):
         matchInfo['teamA']['info'] = ballByBallDict['teams'][teamA]
         matchInfo['teamB']['info'] = ballByBallDict['teams'][teamB]
 
+        matchInfo['umpires'] = ballByBallDict['umpires']
+
         matchInfo['outcome'] = data['info']['outcome']
 
-        accessJSON.addMatch(matchInfo)
-        print('matchInfo')
-        accessJSON.addIndividual(players, matchInfo['matchID'])
-        print('players')
-        accessJSON.addMatchup(matchups, matchInfo['matchID'])
-        matchNumber = accessJSON.addChecker()
+        accessMongo.addMatch(matchInfo)
+        # print('matchInfo')
+        accessMongo.addIndividual(players, matchInfo['matchID'])
+        # print('players')
+        accessMongo.addMatchup(matchups, matchInfo['matchID'])
+        matchNumber = accessMongo.addChecker()
         print(str(matchInfo['matchID']) + " finished | Number: " + str(matchNumber))

@@ -24,6 +24,8 @@ masterBowlers = {}
 masterBatters = {}
 masterNonstrikers = {}
 
+umpires = {}
+
 masterTeams = {}
 masterMatchups = {}
 
@@ -165,7 +167,7 @@ def process(matchId, checkAgainstPlayersList):
             name_link = f"https://search.espncricinfo.com/ci/content/site/search.html?search=+{nameSplit[0]}%20+{nameSplit[1]};type=player"
             playerProcessing(name, name_link)
 
-    def selProcessing(name, link):
+    def selProcessing(name, link, umpire_bool):
         global localPlayerList
         global localPlayerList
         inDB = infoadd.checkPlayerJSON(name)
@@ -202,19 +204,19 @@ def process(matchId, checkAgainstPlayersList):
                     country = soup.find("h3", class_="PlayersSearchLink").text
                     country = country.lower()
                     infoadd.addPlayerJSON(id_, playerName, name, country)
-                    localPlayerList[name] = {'id': id_, 'fullName': playerName}
+                    localPlayerList[name] = {'id': id_, 'fullName': playerName, 'umpire': umpire_bool}
                     break
 
 
         else:
             returnInfo = infoadd.getPlayerID(name)
-            localPlayerList[name] = {'id': returnInfo['id'], 'fullName': returnInfo['fullName']}
+            localPlayerList[name] = {'id': returnInfo['id'], 'fullName': returnInfo['fullName'], 'umpire': umpire_bool}
     
-    def selPrep(name):
+    def selPrep(name, umpire_bool = False):
         nameSpl = name.split(" ")
         nameJoined = "+".join(nameSpl)
         link = f"https://stats.espncricinfo.com/ci/engine/stats/analysis.html?search={nameJoined}"
-        selProcessing(name, link)
+        selProcessing(name, link, umpire_bool)
 
     with open(f'data/tests/{matchId}.yaml', "r") as _file: 
         data = yaml.load(_file)
@@ -223,6 +225,11 @@ def process(matchId, checkAgainstPlayersList):
             masterTeams[t.lower()] = {}
         inningsList = data['innings']
         numberInn = len(inningsList)
+
+        umpireList = data['info']['umpires']
+        for u in umpireList:
+            selPrep(u, True)
+
         for inn in inningsList:      
 
             trackerListBatter = {}
@@ -252,7 +259,8 @@ def process(matchId, checkAgainstPlayersList):
             masterTeams[bowlingTeam][inning] = {"activity": "bowling", "info": {'runs': 0, 'wickets': 0, 'ballsList': []}}
             for d in deliveries:
                 ball = d[next(iter(d))]
-                over = next(iter(d))
+                over = next(iter(d)) #replacing . with , because MongoDB can't handle
+                over = str(over).replace(".", ",")
 
                 non_striker = ball['non_striker']
                 selPrep(non_striker)
@@ -380,9 +388,14 @@ def process(matchId, checkAgainstPlayersList):
             masterMatchups[inning] = trackerMatchups
     
     print(matchId, "nearly there")
+    for player in localPlayerList:
+        pl = localPlayerList[player]
+        if pl['umpire'] == True:
+            umpires[pl['id']] = pl['fullName']
+
     # print(masterTeams)
     driver.quit()
-    return {'batter': masterBatters, 'bowler': masterBowlers, 'nonstriker': masterNonstrikers, 'inningsNumber': numberInn, 'teams' : masterTeams, 'matchups': masterMatchups}
+    return {'batter': masterBatters, 'bowler': masterBowlers, 'nonstriker': masterNonstrikers, 'inningsNumber': numberInn, 'teams' : masterTeams, 'matchups': masterMatchups, 'umpires': umpires}
 
     
 

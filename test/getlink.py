@@ -7,7 +7,7 @@ import requests, os, re, seltest2, time, json
 from requests.api import head
 headers={"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36"}
 
-tId = '319139'
+tId = '1022599' #SELENIUM TO REQUESTS SHIFT
 matchLinkPattern = re.compile(r"http(?:s|):\/\/www\.espncricinfo.com\/series\/.+?(?=\/)\/.+?(?=-\d{4})-(.+(?=\/))") #group1 - matchID
 shortLinkPattern = re.compile(r"http(?:s|):\/\/www\.espncricinfo.com\/series\/\d+\/(game|coverage|commentary|report|scorecard)\/(\d+)") #group1 - type #group2 - matchID
 fullLinkPattern = re.compile(r"https:\/\/www.espncricinfo.com\/series\/.+?(?=\/)\/.+(?=\/)\/")

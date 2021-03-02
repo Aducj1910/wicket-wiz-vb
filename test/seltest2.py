@@ -31,8 +31,7 @@ class MyBot:
         self.driver = webdriver.Chrome(executable_path="../chromedriver.exe", options=self.options)
         #getting the url
         self.driver.get(matchLink + "full-scorecard")     
-
-        last_height = self.driver.execute_script("return document.body.scrollHeight")
+        # last_height = self.driver.execute_script("return document.body.scrollHeight")
 
         playersList = []
         playerMatchUps = {}
