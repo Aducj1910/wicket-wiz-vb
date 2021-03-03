@@ -20,11 +20,12 @@ umpires = {}
 masterTeams = {}
 masterMatchups = {}
 
-playerDict = {}
+
 
 def process(matchId, checkAgainstPlayersList):
-    global playerDict
     global data
+    playerDict = {}
+
 
 
     for c in checkAgainstPlayersList:
@@ -35,123 +36,9 @@ def process(matchId, checkAgainstPlayersList):
 
     headers={"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36"}
 
-
-    def playerProcessing(indPlayer, indPlayer_link):
-        global localPlayerList
-        inDB = accessMongo.checkPlayerJSON(indPlayer)
-        if not inDB:
-            playerMiddle = True
-            nonSplit = indPlayer.split(" ")
-            if len(nonSplit[0]) == 1:
-                playerMiddle = False
-
-            if not playerMiddle:
-                indPlayer_link = f"https://search.espncricinfo.com/ci/content/site/search.html?search={nonSplit[-1]}"
-                html_request = requests.get(indPlayer_link).text
-                soup = BeautifulSoup(html_request, 'lxml')
-                playerSearch = soup.findAll('h3', class_='name link-cta')
-    
-                for pl in playerSearch:
-                    playerMatch = noMiddlePattern.match(pl.text)
-                    if playerMatch != None and nonSplit[0] in playerMatch.group(2) and nonSplit[-1] in playerMatch.group(1):
-                        match = False
-                        playerSearch = pl.find('a')
-                        playerSearchLink = playerSearch.get('href')
-                        playerSearchMatch = playerIDPattern.match(playerSearchLink)
-                        playerID = playerSearchMatch.group(2)
-
-                        for kk in checkAgainstPlayersList:
-                            if kk['id'] == playerID:
-                                match = True
-
-                        if match == True:
-                            html_request = requests.get('https://www.espncricinfo.com' + playerSearchLink).text
-                            soup = BeautifulSoup(html_request, 'lxml')
-                            playerName = soup.find('h1')
-                            playerName = playerName.text
-                            country = soup.find("h3", class_="PlayersSearchLink").text
-                            country = country.lower()
-                            accessMongo.addPlayerJSON(playerID, playerName, indPlayer, country)
-                            localPlayerList[indPlayer] = {'id': playerID, 'fullName': playerName}
-                            break                
-                
-            else:
-                html_request = requests.get(indPlayer_link).text
-                soup = BeautifulSoup(html_request, 'lxml')
-                playerSearchInit = soup.findAll('h3', class_='name link-cta')
-
-                index_ = 0
-                while True:
-                    playerSearch = playerSearchInit[index_]
-                    playerSearch = playerSearch.find('a')
-                    playerSearchLink = playerSearch.get('href')
-                    playerSearchMatch = playerIDPattern.match(playerSearchLink)
-                    playerID = playerSearchMatch.group(2)
-                    match = False
-                    for kk in checkAgainstPlayersList:
-                        if playerID == kk['id']:
-                            match = True
-                    if match:
-                        break
-                    else:
-                        index_ += 1
-
-                
-
-                html_request = requests.get('https://www.espncricinfo.com' + playerSearchLink).text
-                soup = BeautifulSoup(html_request, 'lxml')
-                playerName = soup.find('h1')
-                playerName = playerName.text
-                playerInfos = soup.findAll('p', class_='ciPlayerinformationtxt')
-
-                country = soup.find("h3", class_="PlayersSearchLink").text
-                country = country.lower()
-
-                accessMongo.addPlayerJSON(playerID, playerName, indPlayer, country)
-                localPlayerList[indPlayer] = {'id': playerID, 'fullName': playerName}
-        else:
-            returnInfo = accessMongo.getPlayerID(indPlayer)
-            localPlayerList[indPlayer] = {'id': returnInfo['id'], 'fullName': returnInfo['fullName']}
-
-    def prepLink(name):
-        if " " not in name:
-            # print(name)
-
-            if name not in localPlayerList:
-                res = requests.get(f"https://www.bing.com/search?q={name}+site:espncricinfo.com", headers = headers).text
-                soup = BeautifulSoup(res, 'lxml')
-                resultLinks = soup.findAll('a', href=True)
-                for r in resultLinks:
-                    link_ = r.get('href')
-                    linkMatch = googlePattern.match(link_)
-                    if linkMatch != None:
-                        link_ = linkMatch.group(0)
-                        playerID = linkMatch.group(1)
-                        # print(playerID)
-                        link_ = link_.replace("/url?q=", "")
-                        # print(link_)
-                        html_request = requests.get(link_).text
-                        soup = BeautifulSoup(html_request, 'lxml')
-                        playerName = soup.find('h1')
-                        playerName = playerName.text
-                        country = soup.find("h3", class_="PlayersSearchLink").text
-                        country = country.lower()
-                        accessMongo.addPlayerJSON(playerID, playerName, name, country)
-                        localPlayerList[name] = {'id': playerID, 'fullName': playerName}
-
-        # elif fullNamePattern.match(name) != None:
-        #     pass  
-        else:
-            nameMatch = playerInitPattern.match(name)
-            nameSplit = name.split(" ")
-            if len(nameSplit) > 2:
-                nameSplit = [nameSplit[-2], nameSplit[-1]]
-            name_link = f"https://search.espncricinfo.com/ci/content/site/search.html?search=+{nameSplit[0]}%20+{nameSplit[1]};type=player"
-            playerProcessing(name, name_link)
-
     def selProcessing(name, link, umpire_bool):
         global localPlayerList
-        global localPlayerList
+        global playerDict
         inDB = accessMongo.checkPlayerMongo(name)
         if not inDB:
             resp = requests.get(link).text
@@ -187,6 +74,7 @@ def process(matchId, checkAgainstPlayersList):
             localPlayerList[name] = {'id': returnInfo['id'], 'fullName': returnInfo['fullName'], 'umpire': umpire_bool}
     
     def selPrep(name, umpire_bool = False):
+        global playerDict
         nameSpl = name.split(" ")
         for i in nameSpl:
             if "(" in i:
@@ -327,15 +215,16 @@ def process(matchId, checkAgainstPlayersList):
 
                 if wicket:
                     if nonStrikerOut:
-                        playerDict[nonStriker][inning] = {'bowler' : bowler, 'batter' : batsman, 'over' : over, 'nonStriker' : non_striker}
+                        playerDict[non_striker]['howOut'][inning] = {'howOut' : howOut, 'bowler' : bowler, 'batter' : batsman, 'over' : over, 'nonStriker' : non_striker}
                     else:
-                        playerDict[batsman][inning] = {'bowler' : bowler, 'batter' : batsman, 'over' : over, 'nonStriker' : non_striker}
+                        playerDict[batsman]['howOut'][inning] = {'howOut' : howOut, 'bowler' : bowler, 'batter' : batsman, 'over' : over, 'nonStriker' : non_striker}
 
                 if wickets != 0:
                     s_c2 = playerDict[bowler]['wickets']
                     if inning in s_c2:
-                        playerDict[bowler]['wickets'][inning].append({'bowler' : bowler, 'batter' : batsman, 'over' : over, 'nonStriker' : non_striker})
-                        playerDict[bowler]['wickets'] = [{'bowler' : bowler, 'batter' : batsman, 'over' : over, 'nonStriker' : non_striker}]
+                        playerDict[bowler]['wickets'][inning].append({'howOut' : howOut, 'bowler' : bowler, 'batter' : batsman, 'over' : over, 'nonStriker' : non_striker})
+                    else:
+                        playerDict[bowler]['wickets'][inning] = [{'howOut' : howOut, 'bowler' : bowler, 'batter' : batsman, 'over' : over, 'nonStriker' : non_striker}]
 
 
                 if non_striker not in trackerListNonstriker:
@@ -405,7 +294,7 @@ def process(matchId, checkAgainstPlayersList):
         if pl['umpire'] == True:
             umpires[pl['id']] = pl['fullName']
 
-    # print(masterTeams)
+    print(playerDict)
     return {'batter': masterBatters, 'bowler': masterBowlers, 'nonstriker': masterNonstrikers, 'inningsNumber': numberInn, 'teams' : masterTeams, 'matchups': masterMatchups, 'umpires': umpires, 'playerDict' : playerDict}
 
     

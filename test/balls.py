@@ -78,11 +78,8 @@ def analyse(file, players, matchInfo):
         matchInfo['umpires'] = ballByBallDict['umpires']
 
         matchInfo['outcome'] = data['info']['outcome']
-
-        accessMongo.addMatch(matchInfo)
-        # print('matchInfo')
-        accessMongo.addIndividual(players, matchInfo['matchID'])
-        # print('players')
-        accessMongo.addMatchup(matchups, matchInfo['matchID'])
-        matchNumber = accessMongo.addChecker()
+        # accessMongo.addMatch(matchInfo)
+        # accessMongo.addIndividual(players, matchInfo['matchID'])
+        # accessMongo.addMatchup(matchups, matchInfo['matchID'])
+        # matchNumber = accessMongo.addChecker()
         print(str(matchInfo['matchID']) + " finished | Number: " + str(matchNumber))
