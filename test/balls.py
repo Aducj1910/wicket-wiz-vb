@@ -67,6 +67,11 @@ def analyse(file, players, matchInfo):
         teamA = matchInfo['teamA']['name']
         teamB = matchInfo['teamB']['name']
 
+        playerDict = ballByBallDict['playerDict']
+
+        for p in players:
+            p['details'] = playerDict[p['id']]
+
         matchInfo['teamA']['info'] = ballByBallDict['teams'][teamA]
         matchInfo['teamB']['info'] = ballByBallDict['teams'][teamB]
 

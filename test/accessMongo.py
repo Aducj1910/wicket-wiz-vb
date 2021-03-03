@@ -1,4 +1,4 @@
-import pymongo, json
+import pymongo, json, unicodedata
 from pymongo import MongoClient
 
 # connection = MongoClient('localhost', 27017)
@@ -33,11 +33,13 @@ def addIndividual(playersList, matchId):
 			post['matches'][matchId] = p
 			document.insert_one(post)
 		else:
-			results = document.update_one({"_id": p['id']}, {"$set": {"matches." + str(p['id']) : p}})
+			results = document.update_one({"_id": p['id']}, {"$set": {"matches." + str(matchId) : p}})
 
 def addMatchup(matchups, matchId):
 	db = connection['wicket-wiz-db']
 	document = db['matchups']
+
+	print(matchId)
 
 	for m in matchups:
 		fetch = document.find_one({"_id": m})
@@ -46,7 +48,7 @@ def addMatchup(matchups, matchId):
 			post['matches'][matchId] = matchups[m]
 			document.insert_one(post)
 		else:
-			results = document.update_one({"_id": m}, {"$set": {"matches." + str(m) : matchups[m]}})
+			results = document.update_one({"_id": m}, {"$set": {"matches." + str(matchId) : matchups[m]}})
 
 def addChecker():
     with open("checker.json", "r") as jsonFile:
@@ -59,3 +61,36 @@ def addChecker():
         json.dump(data, jsonFile)
 
     return k
+
+def checkPlayerMongo(initials):
+	db = connection['wicket-wiz-db']
+	document = db['playerInit']
+
+	fetch = document.find_one({"initials" : initials})
+	if fetch != None:
+		return True
+	else:
+		return False
+
+def addPlayerJSON(id, name, init, country):
+		name = unicodedata.normalize("NFKD", name)
+		name = name.replace("      \n", "")
+
+		db = connection['wicket-wiz-db']
+		document = db['playerInit']
+
+		post = {"_id": id, "name": name, "initials": init, "country": country}
+		document.insert_one(post)
+
+def getPlayerID(initials):
+	db = connection['wicket-wiz-db']
+	document = db['playerInit']
+
+	fetch = document.find_one({"initials": initials})
+	
+	return {"id": fetch['_id'], "fullName":fetch['name']}
+
+    
+	
+
+

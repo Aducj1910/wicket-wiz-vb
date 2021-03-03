@@ -1,4 +1,4 @@
-import yaml, requests, re, infoadd
+import yaml, requests, re, accessMongo
 from bs4 import BeautifulSoup
 
 playerIDPattern = re.compile(r"(\/.+?(?=\/)){3}\/(.+?(?=\.html))") #group2 - playerID
@@ -20,8 +20,17 @@ umpires = {}
 masterTeams = {}
 masterMatchups = {}
 
+playerDict = {}
+
 def process(matchId, checkAgainstPlayersList):
+    global playerDict
     global data
+
+
+    for c in checkAgainstPlayersList:
+        if c['id'] not in playerDict:
+            playerDict[c['id']] = {'catches' : {}, 'stumpings' : {}, 'howOut': {}, 'wickets' : {}}
+
     print(str(matchId) + " halfway")
 
     headers={"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36"}
@@ -29,7 +38,7 @@ def process(matchId, checkAgainstPlayersList):
 
     def playerProcessing(indPlayer, indPlayer_link):
         global localPlayerList
-        inDB = infoadd.checkPlayerJSON(indPlayer)
+        inDB = accessMongo.checkPlayerJSON(indPlayer)
         if not inDB:
             playerMiddle = True
             nonSplit = indPlayer.split(" ")
@@ -62,7 +71,7 @@ def process(matchId, checkAgainstPlayersList):
                             playerName = playerName.text
                             country = soup.find("h3", class_="PlayersSearchLink").text
                             country = country.lower()
-                            infoadd.addPlayerJSON(playerID, playerName, indPlayer, country)
+                            accessMongo.addPlayerJSON(playerID, playerName, indPlayer, country)
                             localPlayerList[indPlayer] = {'id': playerID, 'fullName': playerName}
                             break                
                 
@@ -98,10 +107,10 @@ def process(matchId, checkAgainstPlayersList):
                 country = soup.find("h3", class_="PlayersSearchLink").text
                 country = country.lower()
 
-                infoadd.addPlayerJSON(playerID, playerName, indPlayer, country)
+                accessMongo.addPlayerJSON(playerID, playerName, indPlayer, country)
                 localPlayerList[indPlayer] = {'id': playerID, 'fullName': playerName}
         else:
-            returnInfo = infoadd.getPlayerID(indPlayer)
+            returnInfo = accessMongo.getPlayerID(indPlayer)
             localPlayerList[indPlayer] = {'id': returnInfo['id'], 'fullName': returnInfo['fullName']}
 
     def prepLink(name):
@@ -127,7 +136,7 @@ def process(matchId, checkAgainstPlayersList):
                         playerName = playerName.text
                         country = soup.find("h3", class_="PlayersSearchLink").text
                         country = country.lower()
-                        infoadd.addPlayerJSON(playerID, playerName, name, country)
+                        accessMongo.addPlayerJSON(playerID, playerName, name, country)
                         localPlayerList[name] = {'id': playerID, 'fullName': playerName}
 
         # elif fullNamePattern.match(name) != None:
@@ -143,7 +152,7 @@ def process(matchId, checkAgainstPlayersList):
     def selProcessing(name, link, umpire_bool):
         global localPlayerList
         global localPlayerList
-        inDB = infoadd.checkPlayerJSON(name)
+        inDB = accessMongo.checkPlayerMongo(name)
         if not inDB:
             resp = requests.get(link).text
             soup = BeautifulSoup(resp, 'lxml')
@@ -168,17 +177,20 @@ def process(matchId, checkAgainstPlayersList):
                     playerName = playerName.text
                     country = soup.find("h3", class_="PlayersSearchLink").text
                     country = country.lower()
-                    infoadd.addPlayerJSON(id_, playerName, name, country)
+                    accessMongo.addPlayerJSON(id_, playerName, name, country)
                     localPlayerList[name] = {'id': id_, 'fullName': playerName, 'umpire': umpire_bool}
                     break
 
 
         else:
-            returnInfo = infoadd.getPlayerID(name)
+            returnInfo = accessMongo.getPlayerID(name)
             localPlayerList[name] = {'id': returnInfo['id'], 'fullName': returnInfo['fullName'], 'umpire': umpire_bool}
     
     def selPrep(name, umpire_bool = False):
         nameSpl = name.split(" ")
+        for i in nameSpl:
+            if "(" in i:
+                nameSpl.remove(i)
         nameJoined = "+".join(nameSpl)
         link = f"https://stats.espncricinfo.com/ci/engine/stats/analysis.html?search={nameJoined}"
         selProcessing(name, link, umpire_bool)
@@ -265,31 +277,66 @@ def process(matchId, checkAgainstPlayersList):
                         runsConceded = runsConceded - extras
 
                 if 'wicket' in ball:
-                    howOut = ball['wicket']['kind']
-                    if ball['wicket']['player_out'] == non_striker:
-                        nonStrikerOut = True
-                    if howOut != 'run out':
-                        wickets = 1
-                    if howOut == 'caught':
-                        catcher = ball['wicket']['fielders'][0]
-                        if " (sub)" in catcher:
-                            catcher = -101 #ID For substitue
-                        else:
-                            selPrep(catcher)
-                            catcher = infoadd.getPlayerID(catcher)['id']
-                    if howOut == 'stumped':
-                        stumper = ball['wicket']['fielders'][0]
-                        if " (sub)" in stumper:
-                            stumper = -101 #ID For substitue
-                        else:
-                            selPrep(stumper)
-                            stumper = infoadd.getPlayerID(stumper)['id']
-                    if howOut == 'caught and bowled':
-                        catcher = bowler
-                    
-                    wicket = True
+                    if type(ball['wicket']) == list:
+                        pass
+                    if ball['wicket']['kind'] == 'retired hurt':
+                        howOut = 'retired hurt'
+                    else:
+                        howOut = ball['wicket']['kind']
+                        if ball['wicket']['player_out'] == non_striker:
+                            nonStrikerOut = True
+                        if howOut != 'run out':
+                            wickets = 1
+                        if howOut == 'caught':
+                            catcher = ball['wicket']['fielders'][0]
+                            if " (sub)" in catcher:
+                                catcher = -101 #ID For substitue
+                            else:
+                                selPrep(catcher)
+                                catcher = accessMongo.getPlayerID(catcher)['id']
+                                s_c = playerDict[catcher]['catches']
+                                if inning in s_c:
+                                    playerDict[catcher]['catches'][inning].append({'bowler' : bowler, 'batter' : batsman, 'over' : over, 'nonStriker' : non_striker})
+                                else:
+                                    playerDict[catcher]['catches'][inning] = [{'bowler' : bowler, 'batter' : batsman, 'over' : over, 'nonStriker' : non_striker}]
+
+                        if howOut == 'stumped':
+                            stumper = ball['wicket']['fielders'][0]
+                            if " (sub)" in stumper:
+                                stumper = -101 #ID For substitue
+                            else:
+                                selPrep(stumper)
+                                stumper = accessMongo.getPlayerID(stumper)['id']
+                                s_c = playerDict[stumper]['stumpings']
+                                if inning in s_c:
+                                    playerDict[stumper]['stumpings'][inning].append({'bowler' : bowler, 'batter' : batsman, 'over' : over, 'nonStriker' : non_striker})
+                                else:
+                                    playerDict[stumper]['stumpings'][inning] = [{'bowler' : bowler, 'batter' : batsman, 'over' : over, 'nonStriker' : non_striker}]
+
+                        if howOut == 'caught and bowled':
+                            catcher = bowler
+                            s_c = playerDict[catcher]['catches']
+                            if inning in s_c:
+                                playerDict[catcher]['catches'][inning].append({'bowler' : bowler, 'batter' : batsman, 'over' : over, 'nonStriker' : non_striker})
+                            else:
+                                playerDict[catcher]['catches'][inning] = [{'bowler' : bowler, 'batter' : batsman, 'over' : over, 'nonStriker' : non_striker}]
+
+                        wicket = True
                 
                 ballObj = {str(over): {'runs': totalRuns, 'extras': extras, 'batterRuns': batterRuns, 'howOut': howOut, 'wicket': wicket, 'extrasKind': extraKind, 'nonStriker': non_striker, 'batter': batsman, 'bowler': bowler, 'catcher': catcher, 'stumper': stumper}}
+
+                if wicket:
+                    if nonStrikerOut:
+                        playerDict[nonStriker][inning] = {'bowler' : bowler, 'batter' : batsman, 'over' : over, 'nonStriker' : non_striker}
+                    else:
+                        playerDict[batsman][inning] = {'bowler' : bowler, 'batter' : batsman, 'over' : over, 'nonStriker' : non_striker}
+
+                if wickets != 0:
+                    s_c2 = playerDict[bowler]['wickets']
+                    if inning in s_c2:
+                        playerDict[bowler]['wickets'][inning].append({'bowler' : bowler, 'batter' : batsman, 'over' : over, 'nonStriker' : non_striker})
+                        playerDict[bowler]['wickets'] = [{'bowler' : bowler, 'batter' : batsman, 'over' : over, 'nonStriker' : non_striker}]
+
 
                 if non_striker not in trackerListNonstriker:
                     trackerListNonstriker[non_striker] = {'runs': batterRuns, 'balls': balls, 'extras': extras, 'ballsList': [ballObj]}
@@ -359,7 +406,7 @@ def process(matchId, checkAgainstPlayersList):
             umpires[pl['id']] = pl['fullName']
 
     # print(masterTeams)
-    return {'batter': masterBatters, 'bowler': masterBowlers, 'nonstriker': masterNonstrikers, 'inningsNumber': numberInn, 'teams' : masterTeams, 'matchups': masterMatchups, 'umpires': umpires}
+    return {'batter': masterBatters, 'bowler': masterBowlers, 'nonstriker': masterNonstrikers, 'inningsNumber': numberInn, 'teams' : masterTeams, 'matchups': masterMatchups, 'umpires': umpires, 'playerDict' : playerDict}
 
     
 

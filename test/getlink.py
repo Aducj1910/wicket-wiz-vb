@@ -6,11 +6,11 @@ import requests, os, re, seltest2, time, json
 #FIND HOME, NEUTRAL, AWAY BY CITY IN YAML
 from requests.api import head
 import pymongo, json
-from pymongo import MongoClient
+from pymongo import MongoClient #FIXED RETIRED HURT ADDED TO PLAYER WICKETS PROBLEM
 
 headers={"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36"}
 
-tId = '1000885' #SELENIUM TO REQUESTS SHIFT
+tId = '1223872' #SELENIUM TO REQUESTS SHIFT
 matchLinkPattern = re.compile(r"http(?:s|):\/\/www\.espncricinfo.com\/series\/.+?(?=\/)\/.+?(?=-\d{4})-(.+(?=\/))") #group1 - matchID
 shortLinkPattern = re.compile(r"http(?:s|):\/\/www\.espncricinfo.com\/series\/\d+\/(game|coverage|commentary|report|scorecard)\/(\d+)") #group1 - type #group2 - matchID
 fullLinkPattern = re.compile(r"https:\/\/www.espncricinfo.com\/series\/.+?(?=\/)\/.+(?=\/)\/")
@@ -94,13 +94,13 @@ def getMatchList():
 
         fetch = document.find_one({"_id": str(filenameToPass)})
         if fetch != None:
-            print(filenameToPass + "passed")
+            print(filenameToPass + " passed")
         else:
             print(filenameToPass + " starting") #start indicator
             getMatch(filenameToPass)
 
 
-tes()
+getMatchList()
 
 # indPlayer_link = f"https://search.espncricinfo.com/ci/content/site/search.html?search={nonSplit[-1]}"
 # html_request = requests.get(indPlayer_link).text
